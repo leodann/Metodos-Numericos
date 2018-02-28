@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7be6963d-063a-4e79-a29a-ebada51192db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ClaseeeDePrueba.java" />
+    <list default="true" id="7be6963d-063a-4e79-a29a-ebada51192db" name="Default" comment="no ce">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/ClaseeeDePrueba.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BisectionFXML.fxml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BisectionFXML.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NM/FXML/BisectionFXML.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
@@ -33,16 +33,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClaseeeDePrueba.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ClaseeeDePrueba.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -241,6 +231,14 @@
       <option name="presentableId" value="Default" />
       <updated>1519791011990</updated>
     </task>
+    <task id="LOCAL-00001" summary="no ce">
+      <created>1519849502151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519849502151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -275,6 +273,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="no ce" />
+    <option name="LAST_COMMIT_MESSAGE" value="no ce" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
