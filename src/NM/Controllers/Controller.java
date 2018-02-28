@@ -17,11 +17,14 @@ import java.util.ResourceBundle;
 
 public class Controller implements Initializable{
 @FXML
-Button btn1;
+Button btn1,btn2,btn3,btn4;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         btn1.setOnAction(event);
+        btn2.setOnAction(event);
+        btn3.setOnAction(event);
+        btn4.setOnAction(event);
     }
 
     EventHandler<ActionEvent> event = new EventHandler<ActionEvent>() {
