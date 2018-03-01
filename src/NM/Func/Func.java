@@ -15,9 +15,9 @@ public class Func {
         f = new Function(expresion);
     }
 
-    public String evaluate(double a){
-        String resultado = ("Resultado: f("+a+")= " + f.calculate(a) );
-
+    public double evaluate(double a){
+        double resultado = (f.calculate(a) );
+//"Resultado: f("+a+")= "
         return resultado;
     }
 
