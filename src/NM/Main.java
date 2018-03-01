@@ -12,9 +12,11 @@ public class Main extends Application{
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXML/MenuFXML.fxml"));
+        Scene scene = new Scene(root,400,450);
+        scene.getStylesheets().add("resources/css/DarkTheme.css");
         homeS=primaryStage;
         primaryStage.setTitle("Metodos Numericos");
-        primaryStage.setScene(new Scene(root,300,300));
+        primaryStage.setScene(scene);
         primaryStage.setResizable(false);
         primaryStage.show();
     }
