@@ -1,7 +1,15 @@
 <?import javafx.scene.layout.GridPane?>
 
 <?import javafx.scene.control.Label?>
-<GridPane
-        alignment="center" hgap="10" vgap="10">
-    <Label text="Parcial1" textAlignment="CENTER"/>
-</GridPane>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="NM.Controllers.parcial1cont"
+      alignment="center" spacing="15">
+
+    <Label text="Primer Parcial"/>
+    <Button text="Método de Bisección"  fx:id="bisec"/>
+    <Button text="Método de Regla Falsa" fx:id="falsa"/>
+
+
+</VBox>

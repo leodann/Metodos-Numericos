@@ -14,6 +14,7 @@ public class Main extends Application{
         homeS=primaryStage;
         primaryStage.setTitle("Metodos Numericos");
         primaryStage.setScene(new Scene(root,300,300));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 

@@ -1,10 +1,26 @@
 <?import javafx.scene.layout.GridPane?>
 
 <?import javafx.scene.control.Button?>
-<GridPane fx:controller="NM.Controllers.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-    <Button fx:id="btn1" text="Parcial 1" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
-    <Button fx:id="btn2" text="Parcial 2" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
-    <Button fx:id="btn3" text="Parcial 3" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
-    <Button fx:id="btn4" text="parcial 4" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
-</GridPane>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+
+<VBox  fx:controller="NM.Controllers.Controller"
+       xmlns:fx="http://javafx.com/fxml"
+       alignment="center" spacing="20">
+
+            <Label text="Métodos Numéricos"/>
+            <Button fx:id="btn1" text="Parcial 1"/>
+            <Button fx:id="btn2" text="Parcial 2"/>
+            <Button fx:id="btn3" text="Parcial 3"/>
+            <Button fx:id="btn4" text="Parcial 4"/>
+
+
+</VBox>
+
+
+
+

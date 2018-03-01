@@ -31,7 +31,7 @@ Button btn1,btn2,btn3,btn4;
         @Override
         public void handle(ActionEvent event) {
             try {
-                changingScene();
+                pantallaparcial1();
             } catch (IOException e) {
                 e.printStackTrace();
 
@@ -40,7 +40,7 @@ Button btn1,btn2,btn3,btn4;
     };
 
 
-    private void changingScene() throws  IOException{
+    private void pantallaparcial1() throws  IOException{
 
 
         Parent Parcial1 = FXMLLoader.load(getClass().getResource("../FXML/Parcial1.fxml"));
