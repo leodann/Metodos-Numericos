@@ -45,7 +45,8 @@ Button btn1,btn2,btn3,btn4;
 
         Parent Parcial1 = FXMLLoader.load(getClass().getResource("../FXML/Parcial1.fxml"));
         Stage stageP1;
-        Scene sceneP1 = new Scene(Parcial1,300,300);
+        Scene sceneP1 = new Scene(Parcial1,400,450);
+        Parcial1.getStylesheets().add("resources/css/DarkTheme.css");
         stageP1 = Main.homeS;
         stageP1.setScene(sceneP1);
 

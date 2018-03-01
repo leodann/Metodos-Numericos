@@ -7,7 +7,7 @@
       fx:controller="NM.Controllers.parcial1cont"
       alignment="center" spacing="15">
 
-    <Label text="Primer Parcial"/>
+    <Label text="Primer Parcial" textFill="aqua"/>
     <Button text="Método de Bisección"  fx:id="bisec"/>
     <Button text="Método de Regla Falsa" fx:id="falsa"/>
 

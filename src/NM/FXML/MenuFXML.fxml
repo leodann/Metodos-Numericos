@@ -8,18 +8,29 @@
 <?import javafx.scene.layout.BorderPane?>
 
 
-<VBox  fx:controller="NM.Controllers.Controller"
-       xmlns:fx="http://javafx.com/fxml"
-       alignment="center" spacing="20">
-
-            <Label text="Métodos Numéricos"/>
-            <Button fx:id="btn1" text="Parcial 1"/>
-            <Button fx:id="btn2" text="Parcial 2"/>
-            <Button fx:id="btn3" text="Parcial 3"/>
-            <Button fx:id="btn4" text="Parcial 4"/>
+<?import javafx.scene.layout.FlowPane?>
+<BorderPane fx:controller="NM.Controllers.Controller"
+          xmlns:fx="http://javafx.com/fxml">
 
 
-</VBox>
+            <top>
+                <Label text="Métodos Numéricos" BorderPane.alignment="TOP_CENTER" textFill="aqua"/>
+            </top>
+
+
+
+            <center>
+                <VBox alignment="CENTER" spacing="10">
+                    <Button fx:id="btn1" text="Parcial 1"/>
+                    <Button fx:id="btn2" text="Parcial 2"/>
+                    <Button fx:id="btn3" text="Parcial 3"/>
+                    <Button fx:id="btn4" text="Parcial 4"/>
+                </VBox>
+            </center>
+
+
+
+</BorderPane>
 
 
 
