@@ -13,16 +13,54 @@ import java.util.ResourceBundle;
 
 public class MeterFcnController implements Initializable
 {
+    String fcn, limitea, limiteb, error;
+
     @FXML
     Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn0, btnpor, btnx, btnmas, btnclear, btnmenos, btnsqrt, btnexp,btnlog;
     @FXML
-    Label funcion, a, b, err;
+    Label funcion, a, b, eP;
 
 
     EventHandler<ActionEvent> ListenerBtns = new EventHandler<ActionEvent>()
     {
         @Override
         public void handle(ActionEvent event) {
+            if (event.getSource()==btn0)
+                getfuncion(btn0);
+            if (event.getSource()==btn1)
+                getfuncion(btn1);
+            if (event.getSource()==btn2)
+                getfuncion(btn2);
+            if (event.getSource()==btn3)
+                getfuncion(btn3);
+            if (event.getSource()==btn4)
+                getfuncion(btn4);
+            if (event.getSource()==btn5)
+                getfuncion(btn5);
+            if (event.getSource()==btn6)
+                getfuncion(btn6);
+            if (event.getSource()==btn7)
+                getfuncion(btn7);
+            if (event.getSource()==btn8)
+                getfuncion(btn8);
+            if (event.getSource()==btn9)
+                getfuncion(btn9);
+            if (event.getSource()==btnpor)
+                getfuncion(btnpor);
+            if (event.getSource()==btnx)
+                getfuncion(btnx);
+            if (event.getSource()==btnmas)
+                getfuncion(btnmas);
+            if (event.getSource()==btnclear)
+                getfuncion(btnclear);
+            if (event.getSource()==btnmenos)
+                getfuncion(btnmenos);
+            if (event.getSource()==btnsqrt)
+                getfuncion(btnsqrt);
+            if (event.getSource()==btnexp)
+                getfuncion(btnexp);
+            if (event.getSource()==btnlog)
+                getfuncion(btnlog);
 
         }
     };
@@ -50,8 +88,31 @@ public class MeterFcnController implements Initializable
         btnx.setOnAction(ListenerBtns);
     }
 
-    /*public String getfuncion(Button b1)
+    public String getfuncion(Button b1)
     {
+        fcn = fcn + b1.getText();
+        return fcn;
+    }
 
-    }*/
+    public double getLimiteA(Button b1)
+    {
+        limitea = limitea + b1.getText();
+        double _a = Double.parseDouble(limitea);
+        return _a;
+    }
+
+    public double getLimiteB(Button b1)
+    {
+        limiteb = limitea + b1.getText();
+        double _b = Double.parseDouble(limiteb);
+        return _b;
+    }
+
+    public double getErr(Button b1)
+    {
+        error = error + b1.getText();
+        double _eP = Double.parseDouble(error);
+        return _eP;
+    }
+
 }
