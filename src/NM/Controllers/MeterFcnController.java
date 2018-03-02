@@ -6,8 +6,8 @@ import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 
 
 import java.net.URL;
@@ -20,6 +20,7 @@ public class MeterFcnController implements Initializable
     @FXML
     TextField funcion,a,b,ep;
 
+
     Bisection Bis;
 
     EventHandler<ActionEvent> ListenerBtns = new EventHandler<ActionEvent>()
@@ -30,31 +31,66 @@ public class MeterFcnController implements Initializable
                 Bis = new Bisection(getLimA(),getLimB(),getEp(),getfuncion());
 
             }
+            if(event.getSource()==btn1)
+                setfuncion(btn1);
 
+        }
+    };
+
+    EventHandler<MouseEvent> ListenerFields = new EventHandler<MouseEvent>()
+    {
+        @Override
+        public void handle(MouseEvent mouse) {
+            if(mouse.getSource()==funcion){
+                funcion.setEditable(true);
+                a.setEditable(false);
+                b.setEditable(false);
+                ep.setEditable(false);
+
+            }
+            if(mouse.getSource()==a){
+                funcion.setEditable(false);
+                a.setEditable(true);
+                b.setEditable(false);
+                ep.setEditable(false);
+
+            }
+            if(mouse.getSource()==b){
+                funcion.setEditable(false);
+                a.setEditable(false);
+                b.setEditable(true);
+                ep.setEditable(false);
+            }
+
+            if(mouse.getSource()==ep){
+                funcion.setEditable(false);
+                a.setEditable(false);
+                b.setEditable(false);
+                ep.setEditable(true);
+
+            }
         }
     };
 
     @Override
     public void initialize(URL location, ResourceBundle resources)
     {
-        btn0.setOnAction(ListenerBtns);
-        btn1.setOnAction(ListenerBtns);
-        btn2.setOnAction(ListenerBtns);
-        btn3.setOnAction(ListenerBtns);
-        btn4.setOnAction(ListenerBtns);
-        btn5.setOnAction(ListenerBtns);
-        btn6.setOnAction(ListenerBtns);
-        btn7.setOnAction(ListenerBtns);
-        btn8.setOnAction(ListenerBtns);
-        btn9.setOnAction(ListenerBtns);
-        btnpor.setOnAction(ListenerBtns);
-        btnmas.setOnAction(ListenerBtns);
-        btnclear.setOnAction(ListenerBtns);
-        btnmenos.setOnAction(ListenerBtns);
-        btnsqrt.setOnAction(ListenerBtns);
-        btnexp.setOnAction(ListenerBtns);
-        btnlog.setOnAction(ListenerBtns);
-        btnx.setOnAction(ListenerBtns);
+        funcion.setEditable(false);
+        a.setEditable(false);
+        b.setEditable(false);
+        ep.setEditable(false);
+        funcion.setOnMouseClicked(ListenerFields);a.setOnMouseClicked(ListenerFields);
+        b.setOnMouseClicked(ListenerFields); ep.setOnMouseClicked(ListenerFields);
+
+        btn0.setOnAction(ListenerBtns); btn1.setOnAction(ListenerBtns);
+        btn2.setOnAction(ListenerBtns); btn3.setOnAction(ListenerBtns);
+        btn4.setOnAction(ListenerBtns); btn5.setOnAction(ListenerBtns);
+        btn6.setOnAction(ListenerBtns); btn7.setOnAction(ListenerBtns);
+        btn8.setOnAction(ListenerBtns); btn9.setOnAction(ListenerBtns);
+        btnpor.setOnAction(ListenerBtns); btnmas.setOnAction(ListenerBtns);
+        btnclear.setOnAction(ListenerBtns); btnmenos.setOnAction(ListenerBtns);
+        btnsqrt.setOnAction(ListenerBtns); btnexp.setOnAction(ListenerBtns);
+        btnlog.setOnAction(ListenerBtns); btnx.setOnAction(ListenerBtns);
         btnIngresa.setOnAction(ListenerBtns);
     }
 
@@ -77,6 +113,12 @@ public class MeterFcnController implements Initializable
     public double getEp(){
         double Ep =Double.parseDouble(ep.getText());
         return Ep;
+    }
+
+    public void setfuncion(Button b1)
+    {
+        String fcn = funcion.getText()+b1.getText();
+        funcion.setText(fcn);
     }
 
 }
