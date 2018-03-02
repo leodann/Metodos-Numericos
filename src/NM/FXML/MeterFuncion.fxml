@@ -33,7 +33,7 @@
                 <Label text="Ingrese el error permitido: " GridPane.rowIndex="3" GridPane.columnIndex="0"/>
                 <HBox spacing="10" GridPane.rowIndex="3" GridPane.columnIndex="2">
                     <Label text="err  = "/>
-                    <TextField fx:id="err" prefWidth="150" prefHeight="20"/>
+                    <TextField fx:id="eP" prefWidth="150" prefHeight="20"/>
                 </HBox>
 
 

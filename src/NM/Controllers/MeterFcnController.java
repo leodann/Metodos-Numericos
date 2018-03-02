@@ -50,8 +50,8 @@ public class MeterFcnController implements Initializable
         btnx.setOnAction(ListenerBtns);
     }
 
-    public String getfuncion(Button b1)
+    /*public String getfuncion(Button b1)
     {
 
-    }
+    }*/
 }
