@@ -1,11 +1,13 @@
 package NM.Controllers;
 
+import NM.Metods.Bisection;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 
 
 import java.net.URL;
@@ -14,15 +16,20 @@ import java.util.ResourceBundle;
 public class MeterFcnController implements Initializable
 {
     @FXML
-    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn0, btnpor, btnx, btnmas, btnclear, btnmenos, btnsqrt, btnexp,btnlog;
+    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn0, btnpor, btnx, btnmas, btnclear, btnmenos, btnsqrt, btnexp,btnlog,btnIngresa;
     @FXML
-    Label funcion, a, b, err;
+    TextField funcion,a,b,ep;
 
+    Bisection Bis;
 
     EventHandler<ActionEvent> ListenerBtns = new EventHandler<ActionEvent>()
     {
         @Override
         public void handle(ActionEvent event) {
+            if(event.getSource()==btnIngresa){
+                Bis = new Bisection(getLimA(),getLimB(),getEp(),getfuncion());
+
+            }
 
         }
     };
@@ -48,10 +55,28 @@ public class MeterFcnController implements Initializable
         btnexp.setOnAction(ListenerBtns);
         btnlog.setOnAction(ListenerBtns);
         btnx.setOnAction(ListenerBtns);
+        btnIngresa.setOnAction(ListenerBtns);
     }
 
-    /*public String getfuncion(Button b1)
+    public String getfuncion()
     {
+        String f ="f(x)="+funcion.getText();
+        return  f;
+    }
 
-    }*/
+    public double getLimA(){
+        double limA = Double.parseDouble(a.getText());
+        return limA;
+    }
+
+    public double getLimB(){
+        double limB = Double.parseDouble(b.getText());
+        return limB;
+    }
+
+    public double getEp(){
+        double Ep =Double.parseDouble(ep.getText());
+        return Ep;
+    }
+
 }

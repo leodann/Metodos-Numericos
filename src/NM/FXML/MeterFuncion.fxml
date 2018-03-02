@@ -33,8 +33,9 @@
                 <Label text="Ingrese el error permitido: " GridPane.rowIndex="3" GridPane.columnIndex="0"/>
                 <HBox spacing="10" GridPane.rowIndex="3" GridPane.columnIndex="2">
                     <Label text="err  = "/>
-                    <TextField fx:id="err" prefWidth="150" prefHeight="20"/>
+                    <TextField fx:id="ep" prefWidth="150" prefHeight="20"/>
                 </HBox>
+                <Button fx:id="btnIngresa" text="ingresar" prefWidth="100" prefHeight="20" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.rowSpan="3"/>
 
 
 
@@ -46,29 +47,29 @@
 
         <center>
                 <GridPane hgap="10" vgap="10" alignment="CENTER" BorderPane.alignment="CENTER">
-                    <Button text="1" GridPane.rowIndex="0" GridPane.columnIndex="0" fx:id="btn1" prefHeight="30" prefWidth="30"/>
-                    <Button text="2" GridPane.rowIndex="0" GridPane.columnIndex="1" fx:id="btn2" prefHeight="30" prefWidth="30"/>
-                    <Button text="3" GridPane.rowIndex="0" GridPane.columnIndex="2" fx:id="btn3" prefHeight="30" prefWidth="30"/>
-                    <Button text="*" GridPane.rowIndex="0" GridPane.columnIndex="4" fx:id="btnpor" prefHeight="30" prefWidth="30"/>
-                    <Button text="x" GridPane.rowIndex="0" GridPane.columnIndex="5" fx:id="btnx" prefHeight="30" prefWidth="30"/>
+                    <Button text="1" GridPane.rowIndex="0" GridPane.columnIndex="0" fx:id="btn1" prefHeight="40" prefWidth="40"/>
+                    <Button text="2" GridPane.rowIndex="0" GridPane.columnIndex="1" fx:id="btn2" prefHeight="40" prefWidth="40"/>
+                    <Button text="3" GridPane.rowIndex="0" GridPane.columnIndex="2" fx:id="btn3" prefHeight="40" prefWidth="40"/>
+                    <Button text="*" GridPane.rowIndex="0" GridPane.columnIndex="4" fx:id="btnpor" prefHeight="40" prefWidth="40"/>
+                    <Button text="x" GridPane.rowIndex="0" GridPane.columnIndex="5" fx:id="btnx" prefHeight="40" prefWidth="40"/>
 
 
-                    <Button text="4" GridPane.rowIndex="1" GridPane.columnIndex="0" fx:id="btn4" prefHeight="30" prefWidth="30"/>
-                    <Button text="5" GridPane.rowIndex="1" GridPane.columnIndex="1" fx:id="btn5" prefHeight="30" prefWidth="30"/>
-                    <Button text="6" GridPane.rowIndex="1" GridPane.columnIndex="2" fx:id="btn6" prefHeight="30" prefWidth="30"/>
-                    <Button text="+" GridPane.rowIndex="1" GridPane.columnIndex="4" fx:id="btnmas" prefHeight="30" prefWidth="30"/>
-                    <Button text="C" GridPane.rowIndex="1" GridPane.columnIndex="5" fx:id="btnclear" prefHeight="30" prefWidth="30"/>
+                    <Button text="4" GridPane.rowIndex="1" GridPane.columnIndex="0" fx:id="btn4" prefHeight="40" prefWidth="40"/>
+                    <Button text="5" GridPane.rowIndex="1" GridPane.columnIndex="1" fx:id="btn5" prefHeight="40" prefWidth="40"/>
+                    <Button text="6" GridPane.rowIndex="1" GridPane.columnIndex="2" fx:id="btn6" prefHeight="40" prefWidth="40"/>
+                    <Button text="+" GridPane.rowIndex="1" GridPane.columnIndex="4" fx:id="btnmas" prefHeight="40" prefWidth="40"/>
+                    <Button text="C" GridPane.rowIndex="1" GridPane.columnIndex="5" fx:id="btnclear" prefHeight="40" prefWidth="40"/>
 
 
-                    <Button text="7" GridPane.rowIndex="2" GridPane.columnIndex="0" fx:id="btn7" prefHeight="30" prefWidth="30"/>
-                    <Button text="8" GridPane.rowIndex="2" GridPane.columnIndex="1" fx:id="btn8" prefHeight="30" prefWidth="30"/>
-                    <Button text="9" GridPane.rowIndex="2" GridPane.columnIndex="2" fx:id="btn9" prefHeight="30" prefWidth="30"/>
-                    <Button text="-" GridPane.rowIndex="2" GridPane.columnIndex="4" fx:id="btnmenos" prefHeight="30" prefWidth="30"/>
-                    <Button text="√" GridPane.rowIndex="2" GridPane.columnIndex="5" fx:id="btnsqrt" prefHeight="30" prefWidth="30"/>
+                    <Button text="7" GridPane.rowIndex="2" GridPane.columnIndex="0" fx:id="btn7" prefHeight="40" prefWidth="40"/>
+                    <Button text="8" GridPane.rowIndex="2" GridPane.columnIndex="1" fx:id="btn8" prefHeight="40" prefWidth="40"/>
+                    <Button text="9" GridPane.rowIndex="2" GridPane.columnIndex="2" fx:id="btn9" prefHeight="40" prefWidth="40"/>
+                    <Button text="-" GridPane.rowIndex="2" GridPane.columnIndex="4" fx:id="btnmenos" prefHeight="40" prefWidth="40"/>
+                    <Button text="√" GridPane.rowIndex="2" GridPane.columnIndex="5" fx:id="btnsqrt" prefHeight="40" prefWidth="40"/>
 
-                    <Button text="0" GridPane.rowIndex="3" GridPane.columnIndex="1" fx:id="btn0" prefHeight="30" prefWidth="30"/>
-                    <Button text="^" GridPane.rowIndex="3" GridPane.columnIndex="4" fx:id="btnexp" prefHeight="30" prefWidth="30"/>
-                    <Button text="ln" GridPane.rowIndex="3" GridPane.columnIndex="5" fx:id="btnlog" prefHeight="30" prefWidth="30"/>
+                    <Button text="0" GridPane.rowIndex="3" GridPane.columnIndex="1" fx:id="btn0" prefHeight="40" prefWidth="40"/>
+                    <Button text="^" GridPane.rowIndex="3" GridPane.columnIndex="4" fx:id="btnexp" prefHeight="40" prefWidth="40"/>
+                    <Button text="ln" GridPane.rowIndex="3" GridPane.columnIndex="5" fx:id="btnlog" prefHeight="40" prefWidth="40"/>
 
                 </GridPane>
         </center>
