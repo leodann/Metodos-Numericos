@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be6963d-063a-4e79-a29a-ebada51192db" name="Default" comment="V 1.01">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/LeoDan.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/Controller.java" afterPath="$PROJECT_DIR$/src/NM/Controllers/Controller.java" />
       <change beforePath="$PROJECT_DIR$/src/NM/Controllers/MeterFcnController.java" afterPath="$PROJECT_DIR$/src/NM/Controllers/MeterFcnController.java" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java" afterPath="$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/MeterFuncion.fxml" afterPath="$PROJECT_DIR$/src/NM/FXML/MeterFuncion.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Main.java" afterPath="$PROJECT_DIR$/src/NM/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -390,7 +385,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519867943899</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="V 1.01">
+      <created>1520042491497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1520042491497</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">

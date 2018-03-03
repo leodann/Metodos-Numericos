@@ -26,10 +26,21 @@ public class MeterFcnController implements Initializable
     {
         @Override
         public void handle(ActionEvent event) {
-            if(event.getSource()==btnIngresa){
+            if(event.getSource()==btnIngresa)
                 Bis = new Bisection(getLimA(),getLimB(),getEp(),getfuncion());
+            if(event.getSource() == btn0)
+            {
+                seterr(btn0);
+                setfuncion(btn0);
+                setlimA(btn0);
+                setlimB(btn0);
+            }
+
+            if(funcion.setEd == true)
+            {
 
             }
+
 
         }
     };
@@ -77,6 +88,34 @@ public class MeterFcnController implements Initializable
     public double getEp(){
         double Ep =Double.parseDouble(ep.getText());
         return Ep;
+    }
+
+    public String setfuncion(Button b1)
+    {
+        String fcn =funcion.getText()+ b1.getText();
+        funcion.setText(fcn);
+        return fcn;
+    }
+
+    public String setlimA(Button b1)
+    {
+        String fcn =a.getText()+ b1.getText();
+        a.setText(fcn);
+        return fcn;
+    }
+
+    public String setlimB(Button b1)
+    {
+        String fcn =b.getText()+ b1.getText();
+        b.setText(fcn);
+        return fcn;
+    }
+
+    public String seterr(Button b1)
+    {
+        String fcn =ep.getText()+ b1.getText();
+        ep.setText(fcn);
+        return fcn;
     }
 
 }
