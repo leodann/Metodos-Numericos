@@ -21,7 +21,8 @@ public class MeterFcnController implements Initializable
     TextField funcion,a,b,ep;
 
 
-    Bisection Bis;
+    private Bisection Bis;
+    private int txt =0;
 
     EventHandler<ActionEvent> ListenerBtns = new EventHandler<ActionEvent>()
     {
@@ -33,8 +34,40 @@ public class MeterFcnController implements Initializable
             }
             if(event.getSource()==btn1)
                 setfuncion(btn1);
-
+            if(event.getSource()==btn2)
+                setfuncion(btn2);
+            if(event.getSource()==btn3)
+                setfuncion(btn3);
+            if(event.getSource()==btn4)
+                setfuncion(btn4);
+            if(event.getSource()==btn5)
+                setfuncion(btn5);
+            if(event.getSource()==btn6)
+                setfuncion(btn6);
+            if(event.getSource()==btn7)
+                setfuncion(btn7);
+            if(event.getSource()==btn8)
+                setfuncion(btn8);
+            if(event.getSource()==btn9)
+                setfuncion(btn9);
+            if(event.getSource()==btn0)
+                setfuncion(btn0);
+            if(event.getSource()==btnx)
+                setfuncion(btnx);
+            if(event.getSource()==btnexp)
+                setfuncion(btnexp);
+            if(event.getSource()==btnsqrt)
+                setfuncion(btnsqrt);
+            if(event.getSource()==btnpor)
+                setfuncion(btnpor);
+            if(event.getSource()==btnmas)
+                setfuncion(btnmas);
+            if(event.getSource()==btnmenos)
+                setfuncion(btnmenos);
+            if(event.getSource()==btnlog)
+                setfuncion(btnlog);
         }
+
     };
 
     EventHandler<MouseEvent> ListenerFields = new EventHandler<MouseEvent>()
@@ -46,6 +79,7 @@ public class MeterFcnController implements Initializable
                 a.setEditable(false);
                 b.setEditable(false);
                 ep.setEditable(false);
+                txt=0;
 
             }
             if(mouse.getSource()==a){
@@ -53,6 +87,7 @@ public class MeterFcnController implements Initializable
                 a.setEditable(true);
                 b.setEditable(false);
                 ep.setEditable(false);
+                txt=1;
 
             }
             if(mouse.getSource()==b){
@@ -60,6 +95,7 @@ public class MeterFcnController implements Initializable
                 a.setEditable(false);
                 b.setEditable(true);
                 ep.setEditable(false);
+                txt=2;
             }
 
             if(mouse.getSource()==ep){
@@ -67,7 +103,7 @@ public class MeterFcnController implements Initializable
                 a.setEditable(false);
                 b.setEditable(false);
                 ep.setEditable(true);
-
+                txt=3;
             }
         }
     };
@@ -94,31 +130,47 @@ public class MeterFcnController implements Initializable
         btnIngresa.setOnAction(ListenerBtns);
     }
 
-    public String getfuncion()
+    private String getfuncion()
     {
         String f ="f(x)="+funcion.getText();
         return  f;
     }
 
-    public double getLimA(){
+    private double getLimA(){
         double limA = Double.parseDouble(a.getText());
         return limA;
     }
 
-    public double getLimB(){
+    private double getLimB(){
         double limB = Double.parseDouble(b.getText());
         return limB;
     }
 
-    public double getEp(){
+    private double getEp(){
         double Ep =Double.parseDouble(ep.getText());
         return Ep;
     }
 
-    public void setfuncion(Button b1)
+    private void setfuncion(Button b1)
     {
-        String fcn = funcion.getText()+b1.getText();
-        funcion.setText(fcn);
+        String temp;
+        switch (txt){
+            case(0):
+                temp = funcion.getText() + b1.getText();
+                funcion.setText(temp);
+                break;
+            case(1):
+                temp = a.getText() + b1.getText();
+                a.setText(temp);
+                break;
+            case(2):
+                temp = b.getText() + b1.getText();
+                b.setText(temp);
+                break;
+            case(3):
+                temp = ep.getText() + b1.getText();
+                ep.setText(temp);
+        }
     }
 
 }
