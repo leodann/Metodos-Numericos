@@ -1,11 +1,13 @@
 package NM.Metods;
 import NM.Func.Func;
+import javafx.scene.control.TableView;
 
 public class Bisection {
     private double resultado,a,b,Xr,Xr2,eP,eA;
     private boolean root;
     private String x;//cadena de f(x)
     private Func f;
+
 
     public Bisection(double a, double b,double eP, String x){
         this.a=a;   this.b=b;   this.eP=eP; this.x=x;
@@ -21,7 +23,7 @@ public class Bisection {
             evaluations();
             calculateEA();
             System.out.println("\nerror aceptado:"+eA+"\nXr1:"+Xr+"\nXr2:"+Xr2);
-            System.out.println("interación # "+c);
+            System.out.println("iteración # "+c);
             c++;
         }while(root!=true);
         resultado=Xr;
