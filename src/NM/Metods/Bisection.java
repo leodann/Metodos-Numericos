@@ -1,11 +1,17 @@
 package NM.Metods;
+import Database.Model.Dao.IteracionBisecDAO;
+import Database.Model.IteracionBisec;
 import NM.Func.Func;
+
+import java.util.ArrayList;
 
 public class Bisection {
     private double resultado,a,b,Xr,Xr2,eP,eA;
     private boolean root;
     private String x;//cadena de f(x)
     private Func f;
+    private int c = 1;
+    private ArrayList<IteracionBisec> arrIt = new ArrayList();
 
     public Bisection(double a, double b,double eP, String x){
         this.a=a;   this.b=b;   this.eP=eP; this.x=x;
@@ -15,11 +21,11 @@ public class Bisection {
 
     }
     private void calculateRoot(){
-        int c;
-        c=1;
         do{
             evaluations();
             calculateEA();
+            IteracionBisec it1 = new IteracionBisec(c,a,b, f.evaluate(a),f.evaluate(b),Xr, f.evaluate(Xr), eP);
+            arrIt.add(it1);
             System.out.println("\nerror aceptado:"+eA+"\nXr1:"+Xr+"\nXr2:"+Xr2);
             System.out.println("interación # "+c);
             c++;
@@ -72,9 +78,7 @@ public class Bisection {
         }
     }
 
-
-
-
-
-
+    public ArrayList<IteracionBisec> getArrIt() {
+        return arrIt;
+    }
 }
