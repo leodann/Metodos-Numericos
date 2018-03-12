@@ -30,7 +30,6 @@ public class Newtton_Raphson {
     }
 
     private double calculateEa(){
-        double result;
         if(Xi!=0){
             ea=Math.abs((Xi-Xiadd1)/Xi)*100;
         }else{ ea=10.0;}
