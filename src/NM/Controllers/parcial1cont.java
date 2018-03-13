@@ -18,7 +18,7 @@ import java.util.ResourceBundle;
 public class parcial1cont implements Initializable
 {
     @FXML
-    Button bisec, falsa;
+    Button bise, fals;
 
     EventHandler<ActionEvent> ListenerBtns = new EventHandler<ActionEvent>()
     {
@@ -27,9 +27,9 @@ public class parcial1cont implements Initializable
         {
                 try
                 {
-                    if(event.getSource()== bisec)
+                    if(event.getSource()== bise)
                         pantallafuncion();
-                    if(event.getSource()== falsa)
+                    if(event.getSource()== fals)
                         pantallafuncion();
                 }
                 catch(IOException e)
@@ -44,8 +44,8 @@ public class parcial1cont implements Initializable
     @Override
     public void initialize(URL location, ResourceBundle resources)
     {
-        bisec.setOnAction(ListenerBtns);
-        falsa.setOnAction(ListenerBtns);
+        bise.setOnAction(ListenerBtns);
+        fals.setOnAction(ListenerBtns);
     }
 
     public void pantallafuncion() throws IOException
