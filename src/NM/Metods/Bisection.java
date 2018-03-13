@@ -40,15 +40,15 @@ public class Bisection {
     private double calculateEA(){ //paso 5
         calulateXr();
         if(Xr!=0) {
-            eA = Math.abs((Xr - Xr2) / Xr) * 100;
-        }else{
-            eA = 10.00;
-        }
-        if(eA <= eP){
-            root=true;
-        }else{root=false;}
-        return eA;
+        eA = Math.abs((Xr - Xr2) / Xr) * 100;
+    }else{
+        eA = 10.00;
     }
+        if(eA <= eP){
+        root=true;
+    }else{root=false;}
+        return eA;
+}
 
     private void evaluations(){ //paso 3
         calulateXr();

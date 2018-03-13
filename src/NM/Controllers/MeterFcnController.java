@@ -1,21 +1,15 @@
 package NM.Controllers;
 
-import NM.Main;
 import NM.Metods.Bisection;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
-import javafx.stage.Stage;
 
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -27,24 +21,53 @@ public class MeterFcnController implements Initializable
     TextField funcion,a,b,ep;
 
 
-    Bisection Bis;
+    private Bisection Bis;
+    private int txt =0;
 
     EventHandler<ActionEvent> ListenerBtns = new EventHandler<ActionEvent>()
     {
         @Override
         public void handle(ActionEvent event) {
-            try {
+            if(event.getSource()==btnIngresa){
+                Bis = new Bisection(getLimA(),getLimB(),getEp(),getfuncion());
 
-                if (event.getSource() == btnIngresa) {
-                    Bis = new Bisection(getLimA(), getLimB(), getEp(), getfuncion());
-                    pantallaresultados();
-                }
             }
-            catch (IOException e) {
-                e.printStackTrace();
-            }
-
+            if(event.getSource()==btn1)
+                setfuncion(btn1);
+            if(event.getSource()==btn2)
+                setfuncion(btn2);
+            if(event.getSource()==btn3)
+                setfuncion(btn3);
+            if(event.getSource()==btn4)
+                setfuncion(btn4);
+            if(event.getSource()==btn5)
+                setfuncion(btn5);
+            if(event.getSource()==btn6)
+                setfuncion(btn6);
+            if(event.getSource()==btn7)
+                setfuncion(btn7);
+            if(event.getSource()==btn8)
+                setfuncion(btn8);
+            if(event.getSource()==btn9)
+                setfuncion(btn9);
+            if(event.getSource()==btn0)
+                setfuncion(btn0);
+            if(event.getSource()==btnx)
+                setfuncion(btnx);
+            if(event.getSource()==btnexp)
+                setfuncion(btnexp);
+            if(event.getSource()==btnsqrt)
+                setfuncion(btnsqrt);
+            if(event.getSource()==btnpor)
+                setfuncion(btnpor);
+            if(event.getSource()==btnmas)
+                setfuncion(btnmas);
+            if(event.getSource()==btnmenos)
+                setfuncion(btnmenos);
+            if(event.getSource()==btnlog)
+                setfuncion(btnlog);
         }
+
     };
 
     EventHandler<MouseEvent> ListenerFields = new EventHandler<MouseEvent>()
@@ -56,6 +79,7 @@ public class MeterFcnController implements Initializable
                 a.setEditable(false);
                 b.setEditable(false);
                 ep.setEditable(false);
+                txt=0;
 
             }
             if(mouse.getSource()==a){
@@ -63,6 +87,7 @@ public class MeterFcnController implements Initializable
                 a.setEditable(true);
                 b.setEditable(false);
                 ep.setEditable(false);
+                txt=1;
 
             }
             if(mouse.getSource()==b){
@@ -70,6 +95,7 @@ public class MeterFcnController implements Initializable
                 a.setEditable(false);
                 b.setEditable(true);
                 ep.setEditable(false);
+                txt=2;
             }
 
             if(mouse.getSource()==ep){
@@ -77,7 +103,7 @@ public class MeterFcnController implements Initializable
                 a.setEditable(false);
                 b.setEditable(false);
                 ep.setEditable(true);
-
+                txt=3;
             }
         }
     };
@@ -104,37 +130,47 @@ public class MeterFcnController implements Initializable
         btnIngresa.setOnAction(ListenerBtns);
     }
 
-    public String getfuncion()
+    private String getfuncion()
     {
         String f ="f(x)="+funcion.getText();
         return  f;
     }
 
-    public double getLimA(){
+    private double getLimA(){
         double limA = Double.parseDouble(a.getText());
         return limA;
     }
 
-    public double getLimB(){
+    private double getLimB(){
         double limB = Double.parseDouble(b.getText());
         return limB;
     }
 
-    public double getEp(){
+    private double getEp(){
         double Ep =Double.parseDouble(ep.getText());
         return Ep;
     }
 
-
-    public void pantallaresultados() throws IOException
+    private void setfuncion(Button b1)
     {
-        Parent Parcial1 = FXMLLoader.load(getClass().getResource("../FXML/TablaResultados.fxml"));
-        Stage stageP1;
-        Scene sceneP1 = new Scene(Parcial1,600,600);
-        sceneP1.getStylesheets().add("resources/css/DarkTheme.css");
-        stageP1 = Main.homeS;
-        stageP1.setScene(sceneP1);
-        stageP1.setMaximized(true);
+        String temp;
+        switch (txt){
+            case(0):
+                temp = funcion.getText() + b1.getText();
+                funcion.setText(temp);
+                break;
+            case(1):
+                temp = a.getText() + b1.getText();
+                a.setText(temp);
+                break;
+            case(2):
+                temp = b.getText() + b1.getText();
+                b.setText(temp);
+                break;
+            case(3):
+                temp = ep.getText() + b1.getText();
+                ep.setText(temp);
+        }
     }
 
 }
