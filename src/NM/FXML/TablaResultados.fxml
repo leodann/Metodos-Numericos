@@ -9,10 +9,11 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
+            fx:controller="NM.Controllers.TablaBiseccion"
 
             >
 
-        <TableView AnchorPane.bottomAnchor="3" AnchorPane.topAnchor="3" AnchorPane.rightAnchor="5" AnchorPane.leftAnchor="5">
+        <TableView fx:id="tabresultados" AnchorPane.bottomAnchor="3" AnchorPane.topAnchor="3" AnchorPane.rightAnchor="5" AnchorPane.leftAnchor="5">
 
             <columns>
                 <TableColumn fx:id="tbiteracion" text="Iteración">
@@ -27,13 +28,7 @@
                     </cellValueFactory>
                 </TableColumn>
 
-                <TableColumn fx:id="tbA" text="Iteración">
-                    <cellValueFactory>
-                        <PropertyValueFactory property="iteracion" />
-                    </cellValueFactory>
-                </TableColumn>
-
-                <TableColumn fx:id="tbB" text="B">
+                <TableColumn fx:id="tbb" text="B">
                     <cellValueFactory>
                         <PropertyValueFactory property="b" />
                     </cellValueFactory>
@@ -59,7 +54,7 @@
 
                 <TableColumn fx:id="tbf_xr" text="F(Xr)">
                     <cellValueFactory>
-                        <PropertyValueFactory property="Xr" />
+                        <PropertyValueFactory property="xr" />
                     </cellValueFactory>
                 </TableColumn>
 

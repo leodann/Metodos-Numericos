@@ -3,9 +3,9 @@ package Database.Model;
 public class IteracionBisec
 {
     int iteracion;
-    double a, b, f_a,f_b,xr,f_xr,err;
+    double a, b, f_a,f_b,xr,f_xr,eP;
 
-    public IteracionBisec(int iteracion, double a, double b, double f_a, double f_b, double xr, double f_xr, double err) {
+    public IteracionBisec(int iteracion, double a, double b, double f_a, double f_b, double xr, double f_xr, double eP) {
         this.iteracion = iteracion;
         this.a = a;
         this.b = b;
@@ -13,7 +13,13 @@ public class IteracionBisec
         this.f_b = f_b;
         this.xr = xr;
         this.f_xr = f_xr;
-        this.err = err;
+        this.eP = eP;
+    }
+
+    @Override
+    public String toString() {
+        String im = new String("Iteracion: " +iteracion+"\na: " +a+"\nb: " +b+"\nf(a): "+f_a+"\nf(b): "+b+"\nXr: " +xr+"\nea: " +eP+"\n");
+        return im;
     }
 
     public int getIteracion() {
@@ -73,10 +79,10 @@ public class IteracionBisec
     }
 
     public double getErr() {
-        return err;
+        return eP;
     }
 
     public void setErr(double err) {
-        this.err = err;
+        this.eP = err;
     }
 }

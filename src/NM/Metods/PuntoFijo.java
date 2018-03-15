@@ -27,27 +27,31 @@ public class PuntoFijo {
             System.out.println("iteración # "+c);
             c++;
         }
-        while(root!= false);
+        while(root!= true);
         resultado = Xr;
     }
 
     private double calculateXr() {
         Xr2 = Xr;
-        Xr = f.evaluate(Xr2);
+        Xr = f.evaluate(Xi);
         return Xr;
     }
 
     private double calculateEA()
     {
-        calculateXr();
-        if(Xr!=0) {
+        //calculateXr();
+        if(Xr2!=0) {
             eA = Math.abs((Xr - Xr2) / Xr) * 100;
         }else{
             eA = 1000.00;
         }
         if(eA <= eP){
             root=true;
-        }else{root=false;}
+        }else{
+            root=false;
+            Xi = Xr;
+
+        }
         return eA;
     }
 

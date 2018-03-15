@@ -28,13 +28,15 @@ public class Bisection {
             calculateEA();
             IteracionBisec it1 = new IteracionBisec(c,a,b, f.evaluate(a),f.evaluate(b),Xr, f.evaluate(Xr), eP);
             arrIt.add(it1);
-            System.out.println("\nerror aceptado:"+eA+"\nXr1:"+Xr+"\nXr2:"+Xr2);
-            System.out.println("iteración # "+c);
+            System.out.println(arrIt.get(c-1).toString());
+            //System.out.println(it1.toString());
+            /*System.out.println("\nerror aceptado:"+eA+"\nXr1:"+Xr+"\nXr2:"+Xr2);
+            System.out.println("iteración # "+c);*/
             c++;
         }while(root!=true);
         resultado=Xr;
         System.out.println("el reultado es: "+ resultado);
-        System.exit(0);
+
     }
 
     private double calulateXr(){ //paso 2 y 4
@@ -60,22 +62,22 @@ public class Bisection {
         calulateXr();
         double condition = f.evaluate(a) *f.evaluate(Xr);
         if(condition<0){
-            System.out.println("b:"+b+"\na:"+a+"\nXr:"+Xr+"\nf(a)*f(xr)<0"+condition);
+            //System.out.println("b:"+b+"\na:"+a+"\nXr:"+Xr+"\nf(a)*f(xr)<0"+condition);
             b=Xr;
             root=false;
-            System.out.println("Nuevos valores:\nb:"+b+"\na:"+a);
+            //System.out.println("Nuevos valores:\nb:"+b+"\na:"+a);
         }
         if(condition>0){
-            System.out.println("b:"+b+"\na:"+a+"\nXr:"+Xr+"\nf(a)*f(xr)>0 res:"+condition);
+            //System.out.println("b:"+b+"\na:"+a+"\nXr:"+Xr+"\nf(a)*f(xr)>0 res:"+condition);
             a=Xr;
             root=false;
-            System.out.println("Nuevos valores:\nb:"+b+"\na:"+a);
+            //System.out.println("Nuevos valores:\nb:"+b+"\na:"+a);
 
         }
         if(condition==0){
-            System.out.println("b:"+b+"\na:"+a+"\nXr:"+Xr+"\nf(a)*f(xr)=0"+condition);
+            //System.out.println("b:"+b+"\na:"+a+"\nXr:"+Xr+"\nf(a)*f(xr)=0"+condition);
             root=true;
-            System.out.println("Nuevos valores:\nb:"+b+"\na:"+a);
+            //System.out.println("Nuevos valores:\nb:"+b+"\na:"+a);
 
         }
     }

@@ -26,13 +26,15 @@ public class MeterFcnController implements Initializable {
 
     private Bisection Bis;
     private int txt = 0;
-    //IteracionBisecDAO it = new IteracionBisecDAO(Bis.getArrIt());
+    IteracionBisecDAO it;
 
     EventHandler<ActionEvent> ListenerBtns = new EventHandler<ActionEvent>() {
         @Override
         public void handle(ActionEvent event) {
             if (event.getSource() == btnIngresa) {
                 Bis = new Bisection(getLimA(), getLimB(), getEp(), getfuncion());
+                 it = new IteracionBisecDAO(Bis.getArrIt());
+                 initTableTransactions();
 
 
             }
@@ -186,8 +188,8 @@ public class MeterFcnController implements Initializable {
     }
 
 
-   /* private void initTableTransactions() {
+   private void initTableTransactions() {
         tabresultados.setItems(it.getData());
 
-    }*/
+    }
 }
