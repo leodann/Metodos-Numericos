@@ -9,6 +9,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
 <BorderPane prefHeight="1080.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NM.Controllers.MeterFcnController">
 
         <top>
@@ -105,16 +108,67 @@
 
         </top>
 
-    <center>
-        <fx:include source="TablaResultados.fxml" />
-
-    </center>
 
     <left>
         <fx:include source="Graphic.fxml" />
     </left>
 
+    <center>
+        <TableView fx:id="tabresultados">
+            <columns>
 
+                <TableColumn fx:id="tabIteracion" text="Iteración">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="iteracion" />
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabA" text="A">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="a" />
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabB" text="B">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="b" />
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabFA" text="F(A)">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="f_a" />
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabFB" text="F(B)">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="f_b" />
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabXR" text="XR">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="xr" />
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabFXR" text="F(XR)">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="f_xr" />
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabErr" text="ERROR">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="eA" />
+                    </cellValueFactory>
+                </TableColumn>
+
+            </columns>
+        </TableView>
+
+    </center>
 
 
 </BorderPane>

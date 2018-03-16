@@ -1,6 +1,7 @@
 package NM.Controllers;
 
 import Database.Model.Dao.IteracionBisecDAO;
+import Database.Model.IteracionBisec;
 import NM.Metods.Bisection;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -22,18 +23,17 @@ public class MeterFcnController implements Initializable {
     @FXML
     TextField funcion, a, b, ep;
     @FXML
-    TableView<ArrayList> tabresultados;
+    TableView<IteracionBisec> tabresultados;
 
     private Bisection Bis;
     private int txt = 0;
-    IteracionBisecDAO it;
+
 
     EventHandler<ActionEvent> ListenerBtns = new EventHandler<ActionEvent>() {
         @Override
         public void handle(ActionEvent event) {
             if (event.getSource() == btnIngresa) {
                 Bis = new Bisection(getLimA(), getLimB(), getEp(), getfuncion());
-                 it = new IteracionBisecDAO(Bis.getArrIt());
                  initTableTransactions();
 
 
@@ -189,7 +189,7 @@ public class MeterFcnController implements Initializable {
 
 
    private void initTableTransactions() {
-        tabresultados.setItems(it.getData());
+        tabresultados.setItems(Bis.getData());
 
     }
 }

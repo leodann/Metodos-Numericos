@@ -2,6 +2,8 @@ package NM.Metods;
 import Database.Model.Dao.IteracionBisecDAO;
 import Database.Model.IteracionBisec;
 import NM.Func.Func;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.scene.control.TableView;
 
 import java.util.ArrayList;
@@ -13,6 +15,8 @@ public class Bisection {
     private Func f;
     private int c = 1;
     private ArrayList<IteracionBisec> arrIt = new ArrayList();
+
+    ObservableList<IteracionBisec> list = FXCollections.observableArrayList();
 
 
     public Bisection(double a, double b,double eP, String x){
@@ -27,11 +31,10 @@ public class Bisection {
             evaluations();
             calculateEA();
             IteracionBisec it1 = new IteracionBisec(c,a,b, f.evaluate(a),f.evaluate(b),Xr, f.evaluate(Xr), eP);
-            arrIt.add(it1);
-            System.out.println(arrIt.get(c-1).toString());
-            //System.out.println(it1.toString());
-            /*System.out.println("\nerror aceptado:"+eA+"\nXr1:"+Xr+"\nXr2:"+Xr2);
-            System.out.println("iteración # "+c);*/
+            list.add(it1);
+            System.out.println(list.get(c-1).toString());
+
+
             c++;
         }while(root!=true);
         resultado=Xr;
@@ -82,7 +85,7 @@ public class Bisection {
         }
     }
 
-    public ArrayList<IteracionBisec> getArrIt() {
-        return arrIt;
+    public ObservableList<IteracionBisec> getData() {
+        return list;
     }
 }
