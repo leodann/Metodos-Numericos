@@ -30,11 +30,9 @@ public class Bisection {
         do{
             evaluations();
             calculateEA();
-            IteracionBisec it1 = new IteracionBisec(c,a,b, f.evaluate(a),f.evaluate(b),Xr, f.evaluate(Xr), eP);
+            IteracionBisec it1 = new IteracionBisec(c,a,b, f.evaluate(a),f.evaluate(b),Xr, f.evaluate(Xr), eA);
             list.add(it1);
             System.out.println(list.get(c-1).toString());
-
-
             c++;
         }while(root!=true);
         resultado=Xr;
@@ -65,22 +63,22 @@ public class Bisection {
         calulateXr();
         double condition = f.evaluate(a) *f.evaluate(Xr);
         if(condition<0){
-            //System.out.println("b:"+b+"\na:"+a+"\nXr:"+Xr+"\nf(a)*f(xr)<0"+condition);
+
             b=Xr;
             root=false;
-            //System.out.println("Nuevos valores:\nb:"+b+"\na:"+a);
+
         }
         if(condition>0){
-            //System.out.println("b:"+b+"\na:"+a+"\nXr:"+Xr+"\nf(a)*f(xr)>0 res:"+condition);
+
             a=Xr;
             root=false;
-            //System.out.println("Nuevos valores:\nb:"+b+"\na:"+a);
+
 
         }
         if(condition==0){
-            //System.out.println("b:"+b+"\na:"+a+"\nXr:"+Xr+"\nf(a)*f(xr)=0"+condition);
+
             root=true;
-            //System.out.println("Nuevos valores:\nb:"+b+"\na:"+a);
+
 
         }
     }
