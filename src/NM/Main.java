@@ -52,7 +52,5 @@ public class Main extends Application{
         //PuntoFijo P1 = new PuntoFijo(1,0.001,"f(x)=3/(x-2)");
         //System.out.println( System.getProperties());
 
-        //System.exit(0);
-
     }
 }
