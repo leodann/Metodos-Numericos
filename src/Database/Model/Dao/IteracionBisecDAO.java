@@ -8,18 +8,19 @@ import java.util.ArrayList;
 
 public class IteracionBisecDAO
 {
-    ObservableList<ArrayList> Data = FXCollections.observableArrayList();
+    ObservableList<IteracionBisec> Data = FXCollections.observableArrayList();
 
     public void initData(ArrayList<IteracionBisec> arrayList)
     {
-        Data.add(arrayList);
+        for(int i=0; i<=arrayList.size() ; i++  )
+        Data.add(arrayList.get(i));
     }
 
     public IteracionBisecDAO(ArrayList<IteracionBisec> arrayList) {
         initData(arrayList);
     }
 
-    public ObservableList<ArrayList> getData() {
+    public ObservableList<IteracionBisec> getData() {
         return Data;
     }
 
