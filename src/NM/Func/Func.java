@@ -9,7 +9,7 @@ public class Func {
 
     public Func(String expresion){
         this.expresion = expresion;
-        buildFunction();
+        validate();
     }
 
     private void buildFunction(){
@@ -46,6 +46,18 @@ public class Func {
 
 
     }
+
+    private void validate(){
+       double v = f.calculate(0);
+       String v1 = String.valueOf(v);
+       if(v1.equals("NaN")){
+           System.out.println("Expresión incorrecta");
+        }else{
+           buildFunction();
+       }
+
+    }
+
     public String getExpresion() {
         return expresion;
     }

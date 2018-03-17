@@ -51,6 +51,6 @@ public class Main extends Application{
         //Secante s1=new Secante(1,0,1,"f(x)=exp(-x^2)-x");
         //PuntoFijo P1 = new PuntoFijo(1,0.001,"f(x)=3/(x-2)");
         //System.out.println( System.getProperties());
-
+        //Bisection b = new Bisection(1,2,0.01,"f(x)=qwe");
     }
 }
