@@ -7,6 +7,7 @@
 <?import javafx.scene.text.Font?>
 
 
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="319.0" prefWidth="221.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
             fx:controller="NM.Controllers.parcial1cont">
    <top>
@@ -33,4 +34,12 @@
 
       </VBox>
    </center>
+
+   <bottom>
+      <Button fx:id="backbtn" text="back" contentDisplay="TOP" prefHeight="70" prefWidth="70" BorderPane.alignment="BOTTOM_RIGHT">
+         <graphic>
+            <MaterialDesignIconView fill="cornflowerblue" glyphName="KEYBOARD_RETURN" glyphSize="40"/>
+         </graphic>
+      </Button>
+   </bottom>
 </BorderPane>

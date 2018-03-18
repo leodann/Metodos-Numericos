@@ -6,6 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="NM.Controllers.Parcial2Controller"
@@ -20,4 +21,11 @@
             <Button fx:id="btnSE" text="Secante"/>
         </VBox>
     </center>
+    <bottom>
+        <Button fx:id="backbtn" text="back" contentDisplay="TOP" prefHeight="70" prefWidth="70" BorderPane.alignment="BOTTOM_RIGHT">
+            <graphic>
+                <MaterialDesignIconView fill="cornflowerblue" glyphName="KEYBOARD_RETURN" glyphSize="40"/>
+            </graphic>
+        </Button>
+    </bottom>
 </BorderPane>

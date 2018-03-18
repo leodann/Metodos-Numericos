@@ -17,13 +17,14 @@ import java.util.ResourceBundle;
 
 public class Parcial2Controller implements Initializable {
     @FXML
-    Button btnPF,btnNR,btnSE;
+    Button btnPF,btnNR,btnSE,backbtn;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         btnNR.setOnAction(ListenerButtons);
         btnPF.setOnAction(ListenerButtons);
         btnSE.setOnAction(ListenerButtons);
+        backbtn.setOnAction(ListenerButtons);
     }
 
     EventHandler<ActionEvent> ListenerButtons = new EventHandler<ActionEvent>() {
