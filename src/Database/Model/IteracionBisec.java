@@ -18,7 +18,7 @@ public class IteracionBisec
 
     @Override
     public String toString() {
-        String im = new String("Iteracion: " +iteracion+"\na: " +a+"\nb: " +b+"\nf(a): "+f_a+"\nf(b): "+b+"\nXr: " +xr+"\nea: " +eP+"\n");
+        String im = new String("Iteracion: " +iteracion+"\na: " +a+"\nb: " +b+"\nf(a): "+f_a+"\nf(b): "+f_b+"\nXr: " +xr+"\nf(Xr)"+f_xr+"\nea: " +eP+"\n");
         return im;
     }
 

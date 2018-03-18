@@ -29,7 +29,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
-public class MeterFcnController implements Initializable {
+public class BisController implements Initializable {
     @FXML
     Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn0, btnpor, btnx, btnmas, btnclear, btnmenos, btnsqrt, btnexp, btnlog, btnIngresa,btngrafica;
     @FXML
@@ -222,9 +222,9 @@ public class MeterFcnController implements Initializable {
 
             Func fg = new Func(getfuncion());
 
-            double[]x= new double[31];
-            double[]y= new double[31];
-            double nplots =30;
+            double[]x= new double[21];
+            double[]y= new double[21];
+            double nplots =20;
             for (int i=0; i<x.length;i++){
                 double p = i-(nplots/2);
                 x[i] = p;

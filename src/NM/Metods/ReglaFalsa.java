@@ -1,6 +1,9 @@
 package NM.Metods;
 
+import Database.Model.IteracionBisec;
 import NM.Func.Func;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 public class ReglaFalsa {
     private double Resutlado,Xr2,Xr,a,b,ep,ea;
@@ -9,14 +12,33 @@ public class ReglaFalsa {
     private Func f;
     private int interation = 1;
 
+    ObservableList<IteracionBisec> listR = FXCollections.observableArrayList();
+
     public ReglaFalsa(double a, double b, double ep, String xfunc){
         this.a=a;   this.b=b;   this.ep=ep; this.xfunc=xfunc;
-        Xr=0;
+        Xr=0.0;
         f = new Func(xfunc);
         calculateRootR();
 
     }
-    private double calcularFa(){
+
+    private double Rounding(double val){
+        double Entero, RounRes;
+        RounRes = val;
+        Entero = Math.floor(RounRes);
+        RounRes = (RounRes-Entero)*Math.pow(10,6);
+        RounRes = Math.round(RounRes);
+        RounRes = (RounRes/Math.pow(10,6))+Entero;
+        return  RounRes;
+
+    }
+
+    private double calculateF(double ev){
+        double f_ = f.evaluate(ev);
+        double resultado = Rounding(f_);
+        return resultado;
+    }
+   /* private double calcularFa(){
         double fa = f.evaluate(a);
         return fa;
     }
@@ -24,16 +46,16 @@ public class ReglaFalsa {
     private double calculateFb(){
         double fb = f.evaluate(b);
         return fb;
-    }
+    }*/
 
     private double calculateEa(){
-        calculteXr();
+        //calculteXr();
         if(Xr!=0){
-            ea = Math.abs((Xr-Xr2)/Xr)*100;
+            ea = Rounding(Math.abs((Xr-Xr2)/Xr)*100);
         }else{
             ea=10.00;
         }
-        if(ea<ep){
+        if(ea<=ep){
             root=true;
         }else{
             root=false;
@@ -43,26 +65,22 @@ public class ReglaFalsa {
 
     private double calculteXr(){
         Xr2 =Xr;
-        Xr=b-(calculateFb()*(a-b))/(calcularFa()-(calculateFb()));
+        Xr=Rounding(b-(calculateF(b)*(a-b))/(calculateF(a)-(calculateF(b))));
         return Xr;
     }
 
     private void evaluationR(){
-        calculteXr();
-        double conditions =calcularFa()*f.evaluate(Xr);
+        //calculteXr();
+        double f_a = calculateF(a); double f_Xr = calculateF(Xr);
+        double conditions =Rounding(f_a*f_Xr);
         if(conditions<0){
-            System.out.println("\na: " +a+"\nb: "+a+"\nXr: " +Xr+"\nf(a)*f(xr)<0 res:"+ conditions);
             b=Xr;
             root=false;
-            System.out.println("Nuevos valores: \na: "+a+"\nb: "+b);
-
         }
 
         if(conditions>0){
-            System.out.println("\na: " +a+"\nb: "+a+"\nXr: " +Xr+"\nf(a)*f(xr)>0 res:"+ conditions);
             a=Xr;
             root=false;
-            System.out.println("Nuevos valores: \na: "+a+"\nb: "+b);
         }
 
         if(conditions<0){
@@ -73,13 +91,23 @@ public class ReglaFalsa {
 
     private void calculateRootR(){
         do{
-          evaluationR();
-          calculateEa();
-          System.out.println("\ninteracción: " +interation+"\nError aceptado: " + ea+"\nXr1: " +Xr+"\nXr2: "+Xr2);
-          interation++;
+            calculteXr();
+            calculateEa();
+            IteracionBisec itR = new IteracionBisec(interation,a,b,Rounding(f.evaluate(a)),Rounding(f.evaluate(b)),Xr,Rounding(f.evaluate(Xr)),ea);
+            evaluationR();
+            calculateEa();
+            listR.add(itR);
+            System.out.println(listR.get(interation-1).toString());
+
+            interation++;
         }while(root !=true);
         Resutlado = Xr;
-        System.out.println("Resulatado es: "+ Resutlado);
+        System.out.println();
+        System.out.println(interation+"Resulatado es: "+ Resutlado);
 
+    }
+
+    public ObservableList<IteracionBisec> getData(){
+        return listR;
     }
 }

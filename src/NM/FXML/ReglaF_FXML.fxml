@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="NM.Controllers.ReglaFController"
+            prefHeight="960.0" prefWidth="1280.0">
+    <top>
+        <GridPane hgap="40" vgap="40" BorderPane.alignment="TOP_LEFT">
+            <Label text="Ingrese su función " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <HBox spacing="10" GridPane.rowIndex="0" GridPane.columnIndex="2">
+                <Label text="f(x) = "/> <TextField fx:id="funcionTF" prefWidth="150" prefHeight="20" />
+            </HBox>
+            <Label text="Ingrese el primer limite" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <HBox spacing="10" GridPane.rowIndex="1" GridPane.columnIndex="2">
+                <Label text="a   = "/> <TextField fx:id="aTF" prefWidth="150" prefHeight="20"/>
+            </HBox>
+            <Label text="Ingrese el segundo limite" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <HBox spacing="10" GridPane.rowIndex="2" GridPane.columnIndex="2">
+                <Label text="b   = "/> <TextField fx:id="bTF" prefWidth="150" prefHeight="20"/>
+            </HBox>
+            <Label text="Ingrese el error esperado" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+            <HBox spacing="10" GridPane.rowIndex="3" GridPane.columnIndex="2">
+                <Label text="ep = "/> <TextField fx:id="epTF" prefWidth="150" prefHeight="20"/>
+            </HBox>
+            <HBox spacing="30" GridPane.rowIndex="4" GridPane.columnIndex="1">
+                <Button fx:id="graficarBTN" text="Graficar"/>
+                <Button fx:id="ingresaBTN" text="Ingresar"/>
+            </HBox>
+        </GridPane>
+    </top>
+
+    <center>
+        <TableView fx:id="tableReglaF">
+            <columns>
+                <TableColumn fx:id="iteracionRF" text="iteración">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="iteración"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabARF" text="A">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="a"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabBRF" text="B">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="b"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabFaRF" text="f(a)">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="f_a"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabFbRF" text="f(b)">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="f_b"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabXrRF" text="Xr">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="xr"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabFxrRF" text="f(Xr)">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="f_xr"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabErrorRF" text="Error">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="eA"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+            </columns>
+
+        </TableView>
+    </center>
+</BorderPane>

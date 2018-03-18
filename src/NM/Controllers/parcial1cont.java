@@ -29,9 +29,9 @@ public class parcial1cont implements Initializable
                 try
                 {
                     if(event.getSource()== bise)
-                        pantallafuncion();
+                        pantallafuncion(bise);
                     if(event.getSource()== fals)
-                        pantallafuncion();
+                        pantallafuncion(fals);
                 }
                 catch(IOException e)
                 {
@@ -49,13 +49,25 @@ public class parcial1cont implements Initializable
         fals.setOnAction(ListenerBtns);
     }
 
-    public void pantallafuncion() throws IOException
+    public void pantallafuncion(Button btn) throws IOException
     {
-        Parent Parcial1 = FXMLLoader.load(getClass().getResource("../FXML/MeterFuncion.fxml"));
-        Scene sceneP1 = new Scene(Parcial1);
-        sceneP1.getStylesheets().add("resources/css/DarkTheme.css");
-        StageP1 = Main.homeS;
-        StageP1.setScene(sceneP1);
-        StageP1.setMaximized(true);
+        if(btn == bise){
+            Parent Parcial1 = FXMLLoader.load(getClass().getResource("../FXML/BisFXML.fxml"));
+            Scene sceneP1 = new Scene(Parcial1);
+            sceneP1.getStylesheets().add("resources/css/DarkTheme.css");
+            StageP1 = Main.homeS;
+            StageP1.setScene(sceneP1);
+            StageP1.setMaximized(true);
+        }else{
+            Parent Parcial1 = FXMLLoader.load(getClass().getResource("../FXML/ReglaF_FXML.fxml"));
+            Scene sceneP1 = new Scene(Parcial1);
+            sceneP1.getStylesheets().add("resources/css/DarkTheme.css");
+            StageP1 = Main.homeS;
+            StageP1.setScene(sceneP1);
+            StageP1.setMaximized(true);
+
+        }
+
+
     }
 }
