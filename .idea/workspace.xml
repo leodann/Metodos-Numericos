@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be6963d-063a-4e79-a29a-ebada51192db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/Database/Model/IteracionBisec.java" afterPath="$PROJECT_DIR$/src/Database/Model/IteracionBisec.java" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/MeterFcnController.java" afterPath="$PROJECT_DIR$/src/NM/Controllers/BisController.java" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java" afterPath="$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/MeterFuncion.fxml" afterPath="$PROJECT_DIR$/src/NM/FXML/BisFXML.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Main.java" afterPath="$PROJECT_DIR$/src/NM/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Metods/Bisection.java" afterPath="$PROJECT_DIR$/src/NM/Metods/Bisection.java" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java" afterPath="$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java" />
+      <change beforePath="$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml" afterPath="$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,21 +39,9 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="30">
               <caret line="10" column="105" lean-forward="true" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parcial1cont.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-              <folding>
-                <element signature="method#initialize#0;class#parcial1cont#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -71,18 +52,18 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="-690">
+              <caret line="43" column="68" lean-forward="true" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReglaFController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReglaFController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="129">
+              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3991#3992#0" expanded="true" />
@@ -99,8 +80,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="-715">
+              <caret line="112" column="61" lean-forward="true" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
               <folding>
                 <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
               </folding>
@@ -131,6 +112,53 @@
                 <element signature="method#initialize#0;class#BisController#0" expanded="false" />
                 <element signature="method#initGrphic#0;class#BisController#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bisection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="29" column="87" lean-forward="true" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Bisection#0;class#Bisection#0" expanded="false" />
+                <element signature="method#calulateXr#0;class#Bisection#0" expanded="false" />
+                <element signature="method#calculateEA#0;class#Bisection#0" expanded="false" />
+                <element signature="e#1425#1433#0" expanded="false" />
+                <element signature="method#evaluations#0;class#Bisection#0" expanded="false" />
+                <element signature="e#1689#1697#0" expanded="false" />
+                <element signature="e#2429#2430#0" expanded="true" />
+                <element signature="e#2456#2457#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReglaFalsa.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#calculateEa#0;class#ReglaFalsa#0" expanded="false" />
+                <element signature="method#calculteXr#0;class#ReglaFalsa#0" expanded="false" />
+                <element signature="method#evaluationR#0;class#ReglaFalsa#0" expanded="false" />
+                <element signature="e#2763#2764#0" expanded="true" />
+                <element signature="e#2791#2792#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IteracionBisec.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionBisec.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1560">
+              <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,14 +206,14 @@
         <option value="$PROJECT_DIR$/src/NM/FXML/MeterFuncion.fxml" />
         <option value="$PROJECT_DIR$/src/NM/Func/Func.java" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/MeterFcnController.java" />
-        <option value="$PROJECT_DIR$/src/Database/Model/IteracionBisec.java" />
-        <option value="$PROJECT_DIR$/src/NM/Metods/Bisection.java" />
         <option value="$PROJECT_DIR$/src/NM/Main.java" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/BisController.java" />
-        <option value="$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java" />
-        <option value="$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java" />
+        <option value="$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/Bisection.java" />
+        <option value="$PROJECT_DIR$/src/Database/Model/IteracionBisec.java" />
       </list>
     </option>
   </component>
@@ -223,6 +251,12 @@
               <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
               <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
@@ -522,11 +556,19 @@
       <option name="project" value="LOCAL" />
       <updated>1521338312710</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Merge branch 'master' of https://github.com/leodann/Metodos-Numericos&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1521410368071</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1521410368072</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -542,7 +584,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24919441" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24919441" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -887,14 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionBisec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="136" lean-forward="false" selection-start-line="20" selection-start-column="136" selection-end-line="20" selection-end-column="136" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="499">
@@ -903,15 +937,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/BisFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="459">
+          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
           <folding>
-            <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="method#initialize#0;class#parcial1cont#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3991#3992#0" expanded="true" />
+            <element signature="e#4042#4043#0" expanded="true" />
+            <marker date="1521410221363" expanded="false" signature="2050:3960" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="26" column="69" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -927,37 +981,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/BisFXML.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        <state relative-caret-position="-715">
+          <caret line="112" column="61" lean-forward="true" selection-start-line="112" selection-start-column="61" selection-end-line="112" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Bisection#0;class#Bisection#0" expanded="false" />
-            <element signature="method#calulateXr#0;class#Bisection#0" expanded="false" />
-            <element signature="method#calculateEA#0;class#Bisection#0" expanded="false" />
-            <element signature="e#1425#1433#0" expanded="false" />
-            <element signature="method#evaluations#0;class#Bisection#0" expanded="false" />
-            <element signature="e#1689#1697#0" expanded="false" />
-            <element signature="e#2429#2430#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
+            <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java">
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/MenuFXML.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#calculateEa#0;class#ReglaFalsa#0" expanded="false" />
-            <element signature="method#calculteXr#0;class#ReglaFalsa#0" expanded="false" />
-            <element signature="method#evaluationR#0;class#ReglaFalsa#0" expanded="false" />
-            <element signature="method#calculateRootR#0;class#ReglaFalsa#0" expanded="false" />
-            <element signature="e#2763#2764#0" expanded="true" />
-            <element signature="e#2791#2792#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="10" column="105" lean-forward="true" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="43" column="68" lean-forward="true" selection-start-line="43" selection-start-column="68" selection-end-line="43" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -973,58 +1028,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="26" column="69" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="69" />
+        <state relative-caret-position="392">
+          <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#calculateEa#0;class#ReglaFalsa#0" expanded="false" />
+            <element signature="method#calculteXr#0;class#ReglaFalsa#0" expanded="false" />
+            <element signature="method#evaluationR#0;class#ReglaFalsa#0" expanded="false" />
+            <element signature="e#2763#2764#0" expanded="true" />
+            <element signature="e#2791#2792#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/MenuFXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="105" lean-forward="true" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="64" column="33" lean-forward="true" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="33" />
-          <folding>
-            <element signature="method#initialize#0;class#parcial1cont#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="29" column="87" lean-forward="true" selection-start-line="29" selection-start-column="87" selection-end-line="29" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3991#3992#0" expanded="true" />
-            <element signature="e#4042#4043#0" expanded="true" />
-            <marker date="1521410221363" expanded="false" signature="2050:3960" ph="{...}" />
+            <element signature="method#Bisection#0;class#Bisection#0" expanded="false" />
+            <element signature="method#calulateXr#0;class#Bisection#0" expanded="false" />
+            <element signature="method#calculateEA#0;class#Bisection#0" expanded="false" />
+            <element signature="e#1425#1433#0" expanded="false" />
+            <element signature="method#evaluations#0;class#Bisection#0" expanded="false" />
+            <element signature="e#1689#1697#0" expanded="false" />
+            <element signature="e#2429#2430#0" expanded="true" />
+            <element signature="e#2456#2457#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionBisec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

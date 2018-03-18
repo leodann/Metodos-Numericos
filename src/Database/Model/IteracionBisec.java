@@ -3,9 +3,9 @@ package Database.Model;
 public class IteracionBisec
 {
     int iteracion;
-    double a, b, f_a,f_b,xr,f_xr,eP;
+    double a, b, f_a,f_b,xr,f_xr,E;
 
-    public IteracionBisec(int iteracion, double a, double b, double f_a, double f_b, double xr, double f_xr, double eP) {
+    public IteracionBisec(int iteracion, double a, double b, double f_a, double f_b, double xr, double f_xr, double E) {
         this.iteracion = iteracion;
         this.a = a;
         this.b = b;
@@ -13,12 +13,12 @@ public class IteracionBisec
         this.f_b = f_b;
         this.xr = xr;
         this.f_xr = f_xr;
-        this.eP = eP;
+        this.E = E;
     }
 
     @Override
     public String toString() {
-        String im = new String("Iteracion: " +iteracion+"\na: " +a+"\nb: " +b+"\nf(a): "+f_a+"\nf(b): "+f_b+"\nXr: " +xr+"\nf(Xr)"+f_xr+"\nea: " +eP+"\n");
+        String im = new String("Iteracion: " +iteracion+"\na: " +a+"\nb: " +b+"\nf(a): "+f_a+"\nf(b): "+f_b+"\nXr: " +xr+"\nf(Xr)"+f_xr+"\nea: " +E+"\n");
         return im;
     }
 
@@ -78,11 +78,11 @@ public class IteracionBisec
         this.f_xr = f_xr;
     }
 
-    public double getErr() {
-        return eP;
+    public double getE() {
+        return E;
     }
 
-    public void setErr(double err) {
-        this.eP = err;
+    public void setE(double err) {
+        this.E = err;
     }
 }

@@ -41,7 +41,7 @@
             <columns>
                 <TableColumn fx:id="iteracionRF" text="iteración">
                     <cellValueFactory>
-                        <PropertyValueFactory property="iteración"/>
+                        <PropertyValueFactory property="iteracion"/>
                     </cellValueFactory>
                 </TableColumn>
 
