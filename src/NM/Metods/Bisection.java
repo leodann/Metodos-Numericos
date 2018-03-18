@@ -86,4 +86,48 @@ public class Bisection {
     public ObservableList<IteracionBisec> getData() {
         return list;
     }
+
+    public double getResultado() {
+        return resultado;
+    }
+
+    public double getA() {
+        return a;
+    }
+
+    public double getB() {
+        return b;
+    }
+
+    public double getXr() {
+        return Xr;
+    }
+
+    public double getXr2() {
+        return Xr2;
+    }
+
+    public double geteP() {
+        return eP;
+    }
+
+    public double geteA() {
+        return eA;
+    }
+
+    public boolean isRoot() {
+        return root;
+    }
+
+    public String getX() {
+        return x;
+    }
+
+    public Func getF() {
+        return f;
+    }
+
+    public int getC() {
+        return c;
+    }
 }

@@ -17,6 +17,7 @@ import java.util.ResourceBundle;
 
 public class parcial1cont implements Initializable
 {
+    public static Stage StageP1;
     @FXML
     Button bise, fals;
 
@@ -51,11 +52,10 @@ public class parcial1cont implements Initializable
     public void pantallafuncion() throws IOException
     {
         Parent Parcial1 = FXMLLoader.load(getClass().getResource("../FXML/MeterFuncion.fxml"));
-        Stage stageP1;
         Scene sceneP1 = new Scene(Parcial1);
         sceneP1.getStylesheets().add("resources/css/DarkTheme.css");
-        stageP1 = Main.homeS;
-        stageP1.setScene(sceneP1);
-        stageP1.setMaximized(true);
+        StageP1 = Main.homeS;
+        StageP1.setScene(sceneP1);
+        StageP1.setMaximized(true);
     }
 }

@@ -2,17 +2,17 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.cell.PropertyValueFactory?>
-<BorderPane prefHeight="1080.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NM.Controllers.MeterFcnController">
+<BorderPane prefHeight="960.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="NM.Controllers.MeterFcnController">
 
         <top>
             <GridPane hgap="10" vgap="10" BorderPane.alignment="TOP_LEFT">
@@ -39,7 +39,7 @@
                     <Label text="err  = " />
                     <TextField fx:id="ep" prefHeight="20" prefWidth="150" />
                 </HBox>
-         <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="143.0" text="Graficar" GridPane.rowIndex="6" />
+                <Button fx:id="btngrafica" prefHeight="25.0" prefWidth="143.0" text="Graficar" GridPane.rowIndex="6" />
                 <Button fx:id="btnIngresa" prefHeight="20" prefWidth="100" text="Ingresar" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.rowSpan="3" />
                    <GridPane alignment="CENTER" hgap="10" vgap="10" GridPane.columnIndex="4" GridPane.rowIndex="4">
                        <Button fx:id="btn1" prefHeight="40" prefWidth="40" text="1" GridPane.columnIndex="0" GridPane.rowIndex="0" />
@@ -100,20 +100,11 @@
             <RowConstraints />
          </rowConstraints>
 
-
-
-
-
             </GridPane>
 
         </top>
 
-
-    <left>
-        <fx:include source="Graphic.fxml" />
-    </left>
-
-    <center>
+        <center>
         <TableView fx:id="tabresultados">
             <columns>
 

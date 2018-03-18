@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class IteracionBisecDAO
 {
-    ObservableList<IteracionBisec> Data = FXCollections.observableArrayList();
+ /*   ObservableList<IteracionBisec> Data = FXCollections.observableArrayList();
 
     public void initData(ArrayList<IteracionBisec> arrayList)
     {
@@ -24,5 +24,5 @@ public class IteracionBisecDAO
         return Data;
     }
 
-
+*/
 }
