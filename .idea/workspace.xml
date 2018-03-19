@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be6963d-063a-4e79-a29a-ebada51192db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Database/Model/Dao/IteracionPuntoF.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/libs/fontawesomefx-8.9.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Database/Model/IteracionNewton.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/PuntoFijoController.java" afterPath="$PROJECT_DIR$/src/NM/Controllers/PuntoFijoController.java" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/PuntoFijo_fxml.fxml" afterPath="$PROJECT_DIR$/src/NM/FXML/PuntoFijo_fxml.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml" afterPath="$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml" />
+      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/NewtonRaphsonController.java" afterPath="$PROJECT_DIR$/src/NM/Controllers/NewtonRaphsonController.java" />
+      <change beforePath="$PROJECT_DIR$/src/NM/FXML/NewtonRaphson_fxml.fxml" afterPath="$PROJECT_DIR$/src/NM/FXML/NewtonRaphson_fxml.fxml" />
       <change beforePath="$PROJECT_DIR$/src/NM/Main.java" afterPath="$PROJECT_DIR$/src/NM/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Metods/PuntoFijo.java" afterPath="$PROJECT_DIR$/src/NM/Metods/PuntoFijo.java" />
+      <change beforePath="$PROJECT_DIR$/src/NM/Metods/Newtton_Raphson.java" afterPath="$PROJECT_DIR$/src/NM/Metods/Newtton_Raphson.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="369">
+              <caret line="30" column="81" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,67 +37,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PuntoFijo_fxml.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/FXML/PuntoFijo_fxml.fxml">
+      <file leaf-file-name="Newtton_Raphson.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Metods/Newtton_Raphson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="51" column="75" lean-forward="true" selection-start-line="51" selection-start-column="75" selection-end-line="51" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1624#1625#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewtonRaphsonController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/NewtonRaphsonController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1992#1993#0" expanded="true" />
+                <element signature="e#2040#2041#0" expanded="true" />
+                <element signature="method#initGrapN#0;class#NewtonRaphsonController#0" expanded="false" />
+                <element signature="method#get_Xi#0;class#NewtonRaphsonController#0" expanded="false" />
+                <element signature="method#get_ep#0;class#NewtonRaphsonController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewtonRaphson_fxml.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/FXML/NewtonRaphson_fxml.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="275">
+              <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
               <folding>
                 <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IteracionPuntoF.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Database/Model/Dao/IteracionPuntoF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding>
-                <element signature="method#toString#0;class#IteracionPuntoF#0" expanded="false" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PuntoFijoController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/PuntoFijoController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#initGrap#0;class#PuntoFijoController#0" expanded="false" />
-                <element signature="e#3928#3929#0" expanded="true" />
-                <element signature="e#3972#3973#0" expanded="true" />
-                <element signature="method#getFuncion#0;class#PuntoFijoController#0" expanded="false" />
-                <element signature="method#getXi#0;class#PuntoFijoController#0" expanded="false" />
-                <element signature="method#getEp#0;class#PuntoFijoController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReglaFController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#InitGraR#0;class#ReglaFController#0" expanded="false" />
-                <element signature="e#3991#3992#0" expanded="true" />
-                <element signature="e#4042#4043#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +89,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="85" column="60" lean-forward="true" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
+            <state relative-caret-position="1860">
+              <caret line="85" column="60" lean-forward="false" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
               <folding>
                 <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
               </folding>
@@ -118,41 +98,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IteracionBisec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionBisec.java">
+      <file leaf-file-name="ReglaFController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PuntoFijo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/Metods/PuntoFijo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="2880">
+              <caret line="114" column="25" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="115" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#PuntoFijo#0;class#PuntoFijo#0" expanded="false" />
-                <element signature="method#calculateRoot#0;class#PuntoFijo#0" expanded="false" />
-                <element signature="method#calculateXr#0;class#PuntoFijo#0" expanded="false" />
-                <element signature="method#calculateEA#0;class#PuntoFijo#0" expanded="false" />
-                <element signature="e#1790#1791#0" expanded="true" />
-                <element signature="e#1817#1818#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parcial2Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Parcial2Controller.java">
+      <file leaf-file-name="Bisection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-803">
-              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            <state relative-caret-position="549">
+              <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#Bisection#0;class#Bisection#0" expanded="false" />
+                <element signature="method#calculateRoot#0;class#Bisection#0" expanded="false" />
+                <element signature="method#_f#0;class#Bisection#0" expanded="false" />
+                <element signature="method#calulateXr#0;class#Bisection#0" expanded="false" />
+                <element signature="method#calculateEA#0;class#Bisection#0" expanded="false" />
+                <element signature="e#1425#1433#0" expanded="false" />
+                <element signature="method#evaluations#0;class#Bisection#0" expanded="false" />
+                <element signature="e#1689#1697#0" expanded="false" />
+                <element signature="method#rounding#0;class#Bisection#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IteracionNewton.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionNewton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+              <folding>
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#725#726#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#785#786#0" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#993#994#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/Database/Model/IteracionBisecDAO.java" />
         <option value="$USER_HOME$/Desktop/LEO_DANONINO/AtomProjects/AtomJava/ExperimentosTableView/src/Main.java" />
         <option value="$PROJECT_DIR$/src/NM/Metods/Secante.java" />
-        <option value="$PROJECT_DIR$/src/NM/Metods/Newtton_Raphson.java" />
         <option value="$PROJECT_DIR$/src/NM/FXML/MenuFXML.fxml" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/TablaBiseccion.java" />
         <option value="$PROJECT_DIR$/src/NM/FXML/TablaResultados.fxml" />
@@ -203,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java" />
         <option value="$PROJECT_DIR$/src/NM/Metods/Bisection.java" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/Controller.java" />
-        <option value="$PROJECT_DIR$/src/NM/FXML/NewtonRaphson_fxml.fxml" />
         <option value="$PROJECT_DIR$/src/NM/FXML/Secante_fxml.fxml" />
         <option value="$PROJECT_DIR$/src/NM/FXML/Parcial1.fxml" />
         <option value="$PROJECT_DIR$/src/NM/FXML/Parcial2.fxml" />
@@ -212,10 +204,14 @@
         <option value="$PROJECT_DIR$/src/Database/Model/IteracionBisec.java" />
         <option value="$PROJECT_DIR$/src/Database/Model/Dao/IteracionPuntoF.java" />
         <option value="$PROJECT_DIR$/src/NM/Metods/PuntoFijo.java" />
-        <option value="$PROJECT_DIR$/src/NM/Main.java" />
         <option value="$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml" />
         <option value="$PROJECT_DIR$/src/NM/FXML/PuntoFijo_fxml.fxml" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/PuntoFijoController.java" />
+        <option value="$PROJECT_DIR$/src/NM/Main.java" />
+        <option value="$PROJECT_DIR$/src/NM/Controllers/NewtonRaphsonController.java" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/Newtton_Raphson.java" />
+        <option value="$PROJECT_DIR$/src/NM/FXML/NewtonRaphson_fxml.fxml" />
+        <option value="$PROJECT_DIR$/src/Database/Model/IteracionNewton.java" />
       </list>
     </option>
   </component>
@@ -239,8 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,12 +260,34 @@
               <item name="Model" type="462c0819:PsiDirectoryNode" />
               <item name="Dao" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NM" type="462c0819:PsiDirectoryNode" />
+              <item name="FXML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NM" type="462c0819:PsiDirectoryNode" />
+              <item name="Metods" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,7 +589,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521413578116</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Agrege la escena para punto fijo y Regla falsa.&#10;  #Lo unico que no so ve en la tableview son los errores.">
+      <created>1521438475280</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1521438475281</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -587,13 +610,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54846066" sideWeight="0.5021482" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2919042" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56898516" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.49785176" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25295383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2567132" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -606,6 +628,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -621,7 +644,8 @@
     <MESSAGE value="Se agreagaron los metodos de &quot;Regla falsa&quot;, &quot;Newton-Raphson&quot; y &quot;Metodo de la secante&quot;." />
     <MESSAGE value="Merge branch 'master' of https://github.com/leodann/Metodos-Numericos&#10;&#10;# Conflicts:&#10;#&#9;src/NM/Main.java&#10;#&#9;src/NM/Metods/PuntoFijo.java" />
     <MESSAGE value="Merge branch 'master' of https://github.com/leodann/Metodos-Numericos&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/leodann/Metodos-Numericos&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="Agrege la escena para punto fijo y Regla falsa.&#10;  #Lo unico que no so ve en la tableview son los errores." />
+    <option name="LAST_COMMIT_MESSAGE" value="Agrege la escena para punto fijo y Regla falsa.&#10;  #Lo unico que no so ve en la tableview son los errores." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -644,13 +668,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -796,13 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Newtton_Raphson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="51" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
     <entry file="file://$PROJECT_DIR$/src/NM/FXML/Graphic.fxml" />
     <entry file="file://$PROJECT_DIR$/src/NM/FXML/TablaResultados.fxml" />
@@ -819,14 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#304#305#0" expanded="false" />
-            <element signature="e#347#348#0" expanded="false" />
-            <element signature="e#1014#1015#0" expanded="false" />
-            <element signature="e#1046#1047#0" expanded="false" />
-            <element signature="e#1096#1097#0" expanded="false" />
-            <element signature="e#1138#1139#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,14 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="10" column="105" lean-forward="true" selection-start-line="10" selection-start-column="105" selection-end-line="10" selection-end-column="105" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/NewtonRaphsonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -877,18 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/NewtonRaphson_fxml.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="41" lean-forward="false" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
           <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
           <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -933,44 +913,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding>
-            <element signature="method#Bisection#0;class#Bisection#0" expanded="false" />
-            <element signature="method#calculateRoot#0;class#Bisection#0" expanded="false" />
-            <element signature="method#_f#0;class#Bisection#0" expanded="false" />
-            <element signature="method#calulateXr#0;class#Bisection#0" expanded="false" />
-            <element signature="method#calculateEA#0;class#Bisection#0" expanded="false" />
-            <element signature="e#1425#1433#0" expanded="false" />
-            <element signature="method#evaluations#0;class#Bisection#0" expanded="false" />
-            <element signature="e#1689#1697#0" expanded="false" />
-            <element signature="method#rounding#0;class#Bisection#0" expanded="false" />
-            <element signature="e#2429#2430#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="79" column="82" lean-forward="false" selection-start-line="79" selection-start-column="82" selection-end-line="79" selection-end-column="82" />
-          <folding>
-            <element signature="class#753:1741" expanded="false" />
-            <element signature="method#handle#0;class#753:1741" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Parcial2Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-803">
-          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -987,60 +933,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/BisController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4410">
-          <caret line="206" column="36" lean-forward="false" selection-start-line="206" selection-start-column="36" selection-end-line="206" selection-end-column="36" />
-          <folding>
-            <element signature="method#initialize#0;class#BisController#0" expanded="false" />
-            <element signature="method#initGrphic#0;class#BisController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/PuntoFijo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#PuntoFijo#0;class#PuntoFijo#0" expanded="false" />
-            <element signature="method#calculateRoot#0;class#PuntoFijo#0" expanded="false" />
-            <element signature="method#calculateXr#0;class#PuntoFijo#0" expanded="false" />
-            <element signature="method#calculateEA#0;class#PuntoFijo#0" expanded="false" />
-            <element signature="e#1790#1791#0" expanded="true" />
-            <element signature="e#1817#1818#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionBisec.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/Database/Model/Dao/IteracionPuntoF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="85" column="60" lean-forward="true" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
+        <state relative-caret-position="30">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding>
-            <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+            <element signature="e#506#507#0" expanded="false" />
+            <element signature="e#531#532#0" expanded="false" />
+            <element signature="e#560#561#0" expanded="false" />
+            <element signature="e#585#586#0" expanded="false" />
+            <element signature="e#672#673#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1050,7 +961,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="30">
           <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding>
             <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
@@ -1058,47 +969,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/Model/Dao/IteracionPuntoF.java">
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/PuntoFijoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="759">
+          <caret line="134" column="0" lean-forward="false" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
           <folding>
-            <element signature="method#toString#0;class#IteracionPuntoF#0" expanded="false" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#initGrap#0;class#PuntoFijoController#0" expanded="false" />
+            <element signature="e#3928#3929#0" expanded="false" />
+            <element signature="e#3972#3973#0" expanded="false" />
+            <element signature="method#getFuncion#0;class#PuntoFijoController#0" expanded="false" />
+            <element signature="method#getXi#0;class#PuntoFijoController#0" expanded="false" />
+            <element signature="method#getEp#0;class#PuntoFijoController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/PuntoFijo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#PuntoFijo#0;class#PuntoFijo#0" expanded="false" />
+            <element signature="e#1790#1791#0" expanded="false" />
+            <element signature="e#1817#1818#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Parcial2Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="85" column="60" lean-forward="false" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
+          <folding>
+            <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/BisController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="206" column="36" lean-forward="false" selection-start-line="206" selection-start-column="36" selection-end-line="206" selection-end-column="36" />
+          <folding>
+            <element signature="method#initialize#0;class#BisController#0" expanded="false" />
+            <element signature="method#initGrphic#0;class#BisController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="2880">
+          <caret line="114" column="25" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="115" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#InitGraR#0;class#ReglaFController#0" expanded="false" />
-            <element signature="e#3991#3992#0" expanded="true" />
-            <element signature="e#4042#4043#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/PuntoFijoController.java">
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="549">
+          <caret line="102" column="14" lean-forward="true" selection-start-line="102" selection-start-column="14" selection-end-line="102" selection-end-column="14" />
+          <folding>
+            <element signature="method#Bisection#0;class#Bisection#0" expanded="false" />
+            <element signature="method#calculateRoot#0;class#Bisection#0" expanded="false" />
+            <element signature="method#_f#0;class#Bisection#0" expanded="false" />
+            <element signature="method#calulateXr#0;class#Bisection#0" expanded="false" />
+            <element signature="method#calculateEA#0;class#Bisection#0" expanded="false" />
+            <element signature="e#1425#1433#0" expanded="false" />
+            <element signature="method#evaluations#0;class#Bisection#0" expanded="false" />
+            <element signature="e#1689#1697#0" expanded="false" />
+            <element signature="method#rounding#0;class#Bisection#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Newtton_Raphson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="51" column="75" lean-forward="true" selection-start-line="51" selection-start-column="75" selection-end-line="51" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#initGrap#0;class#PuntoFijoController#0" expanded="false" />
-            <element signature="e#3928#3929#0" expanded="true" />
-            <element signature="e#3972#3973#0" expanded="true" />
-            <element signature="method#getFuncion#0;class#PuntoFijoController#0" expanded="false" />
-            <element signature="method#getXi#0;class#PuntoFijoController#0" expanded="false" />
-            <element signature="method#getEp#0;class#PuntoFijoController#0" expanded="false" />
+            <element signature="e#1624#1625#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/NewtonRaphsonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="method#initGrapN#0;class#NewtonRaphsonController#0" expanded="false" />
+            <element signature="method#get_Xi#0;class#NewtonRaphsonController#0" expanded="false" />
+            <element signature="method#get_ep#0;class#NewtonRaphsonController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/NewtonRaphson_fxml.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="62" column="58" lean-forward="false" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+          <folding>
+            <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionNewton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="30" column="81" lean-forward="false" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

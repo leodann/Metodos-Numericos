@@ -1,6 +1,9 @@
 package NM.Metods;
 
+import Database.Model.IteracionNewton;
 import NM.Func.Func;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 public class Newtton_Raphson {
     private double Xi,Xiadd1,ea,ep;
@@ -8,6 +11,7 @@ public class Newtton_Raphson {
     private boolean root;
     private int interation=1;
     private Func f;
+    ObservableList<IteracionNewton> ListN = FXCollections.observableArrayList();
 
     public Newtton_Raphson(double Xi,String xfunc,double ep){
         this.Xi=Xi; this.xfunc=xfunc;   this.ep=ep;
@@ -44,18 +48,19 @@ public class Newtton_Raphson {
 
     private void calcculateRoot(){
         do {
-            System.out.println("//////////////////////////////////////////////////////////////");
-            System.out.println("Numero de interación: "+interation+"");
-            System.out.println("Xi:    " + Xi);
-            System.out.println("f(xi): " + fxi());
-            System.out.println("F(xi): " + Fxi());
-            System.out.println("xi+1:  " + calculateXiadd1());
-            System.out.println("ea:    " + calculateEa());
+
+            IteracionNewton ItN = new IteracionNewton(interation,Xi,fxi(),Fxi(),calculateXiadd1(),calculateEa());
+            ListN.add(ItN);
+            System.out.println(ListN.get(interation-1).toString());
+            //calculateEa();
+
             interation++;
         }while(root!=true);
         System.out.println("");
         System.out.println("Resultado: " + Xiadd1);
-        System.exit(0);
+    }
 
+    public ObservableList<IteracionNewton> getDataN(){
+        return ListN;
     }
 }

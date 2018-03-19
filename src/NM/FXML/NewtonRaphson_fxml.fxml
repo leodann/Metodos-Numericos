@@ -6,9 +6,77 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="NM.Controllers.NewtonRaphsonController"
-            prefHeight="400.0" prefWidth="600.0">
+            prefHeight="960.0" prefWidth="1280.0">
+    <top>
+        <GridPane hgap="40" vgap="40" BorderPane.alignment="TOP_LEFT">
+            <Label text="Ingresa una función" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <HBox spacing="10" GridPane.rowIndex="0" GridPane.columnIndex="2">
+                <Label text="f(x)= "/>  <TextField fx:id="fx_TF" prefWidth="150" prefHeight="20"/>
+            </HBox>
 
-</AnchorPane>
+            <Label text="Ingresa la x inicial " GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <HBox spacing="10" GridPane.rowIndex="1" GridPane.columnIndex="2">
+                <Label text="xi  = "/> <TextField fx:id="Xi_TF" prefWidth="150" prefHeight="20"/>
+            </HBox>
+
+            <Label text="Ingresa el error esperado " GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <HBox spacing="10" GridPane.rowIndex="2" GridPane.columnIndex="2">
+                <Label text="ep = "/> <TextField fx:id="eP_TF" prefWidth="150" prefHeight="20"/>
+            </HBox>
+
+            <HBox spacing="40" GridPane.rowIndex="4" GridPane.columnIndex="1">
+                <Button fx:id="GraficaBtn" text="Grafica"/>
+                <Button fx:id="IngresaBtn" text="Ingresar"/>
+            </HBox>
+        </GridPane>
+
+    </top>
+
+    <center>
+        <TableView fx:id="table_NR">
+            <columns>
+
+                <TableColumn fx:id="tabNit" text="iteración">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="iteracion"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabNxi" text="Xi">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="Xi"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabNfxi" text="f(Xi)">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="f_Xi"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabNFxi" text="f´(Xi)">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="Fp_Xi"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabNxiadd1" text="Xi+1">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="Xiadd1"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabNep" text="Error">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="eP"/>
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+    </center>
+
+</BorderPane>
