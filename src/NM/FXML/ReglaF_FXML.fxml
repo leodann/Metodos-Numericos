@@ -83,7 +83,7 @@
 
                 <TableColumn fx:id="tabErrorRF" text="Error">
                     <cellValueFactory>
-                        <PropertyValueFactory property="eA"/>
+                        <PropertyValueFactory property="E"/>
                     </cellValueFactory>
                 </TableColumn>
 

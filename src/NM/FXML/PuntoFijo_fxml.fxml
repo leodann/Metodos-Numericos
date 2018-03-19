@@ -6,9 +6,68 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="NM.Controllers.PuntoFijoController"
-            prefHeight="400.0" prefWidth="600.0">
+            prefHeight="960.0" prefWidth="1280.0">
+    <top>
+        <GridPane hgap="40" vgap="40" BorderPane.alignment="TOP_RIGHT">
+            <Label text="Ingrese una función " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+            <HBox spacing="10" GridPane.rowIndex="0" GridPane.columnIndex="2">
+                <Label text="x = "/> <TextField fx:id="f_TF" prefWidth="150" prefHeight="20"/>
+            </HBox>
 
-</AnchorPane>
+            <Label text="Ingresa la x inicial " GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+            <HBox spacing="10" GridPane.rowIndex="1" GridPane.columnIndex="2">
+                <Label text="Xi= "/> <TextField fx:id="Xi_TF" prefWidth="150" prefHeight="20"/>
+            </HBox>
+
+            <Label text="Ingresa error permitido " GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+            <HBox spacing="10" GridPane.rowIndex="2" GridPane.columnIndex="2">
+                <Label text="ep= "/> <TextField fx:id="ep_TF" prefWidth="150" prefHeight="20"/>
+            </HBox>
+
+            <HBox spacing="30" GridPane.rowIndex="4" GridPane.columnIndex="1">
+                <Button fx:id="btnGrafica" text="Graficar"/>
+                <Button fx:id="btnIngresa" text="Ingresar"/>
+            </HBox>
+
+        </GridPane>
+
+    </top>
+
+    <center>
+
+        <TableView fx:id="tabPF">
+            <columns>
+
+                <TableColumn fx:id="tabite" text="iteración">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="iteracion"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabXi" text="Xi">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="Xi"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabXr" text="X1">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="Xr"/>
+                    </cellValueFactory>
+                </TableColumn>
+
+                <TableColumn fx:id="tabEa" text="Error">
+                    <cellValueFactory>
+                        <PropertyValueFactory property="eA"/>
+                    </cellValueFactory>
+                </TableColumn>
+            </columns>
+        </TableView>
+
+    </center>
+
+</BorderPane>
