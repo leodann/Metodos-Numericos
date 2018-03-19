@@ -1,6 +1,9 @@
 package NM.Metods;
 
+import Database.Model.IteracionSecante;
 import NM.Func.Func;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 public class Secante {
     private double Xi,Ximinus1,Xiadd1,ea,ep;
@@ -8,6 +11,7 @@ public class Secante {
     private Func f;
     private boolean root;
     private int interacion=1;
+    ObservableList<IteracionSecante> ListS = FXCollections.observableArrayList();
 
     public Secante(double Xi,double Ximinus1,double ep,String xfunc){
         this.Xi=Xi; this.Ximinus1=Ximinus1; this.ep=ep; this.xfunc=xfunc;
@@ -37,16 +41,18 @@ public class Secante {
 
     private void calculateRoot(){
         do{
-            System.out.println("///////////////////////////////");
+            IteracionSecante itS = new IteracionSecante(interacion,Ximinus1,Xi,f.evaluate(Xi),f.evaluate(Ximinus1),calculateXiadd1(),calculateEa());
+            ListS.add(itS);
+            System.out.println(ListS.get(interacion-1).toString());
+            /*System.out.println("///////////////////////////////");
             System.out.println("Nuemero de interación: " +interacion);
             System.out.println("Xi-1 : "+Ximinus1);
             System.out.println("Xi   : "+Xi);
             System.out.println("Xi+i : "+calculateXiadd1());
-            System.out.println("ea   : "+calculateEa());
+            System.out.println("ea   : "+calculateEa());*/
             interacion++;
         }while(root!=true);
         System.out.println("  ");
         System.out.println("resultado: "+Xiadd1);
-        System.exit(0);
     }
 }
