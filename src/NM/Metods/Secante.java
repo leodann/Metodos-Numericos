@@ -55,4 +55,8 @@ public class Secante {
         System.out.println("  ");
         System.out.println("resultado: "+Xiadd1);
     }
+
+    public ObservableList<IteracionSecante> getData(){
+        return ListS;
+    }
 }

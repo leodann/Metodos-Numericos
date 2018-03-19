@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7be6963d-063a-4e79-a29a-ebada51192db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Database/Model/IteracionSecante.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/SecanteController.java" afterPath="$PROJECT_DIR$/src/NM/Controllers/SecanteController.java" />
+      <change beforePath="$PROJECT_DIR$/src/NM/FXML/Secante_fxml.fxml" afterPath="$PROJECT_DIR$/src/NM/FXML/Secante_fxml.fxml" />
       <change beforePath="$PROJECT_DIR$/src/NM/Main.java" afterPath="$PROJECT_DIR$/src/NM/Main.java" />
       <change beforePath="$PROJECT_DIR$/src/NM/Metods/Secante.java" afterPath="$PROJECT_DIR$/src/NM/Metods/Secante.java" />
     </list>
@@ -25,10 +26,29 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+            <state relative-caret-position="381">
+              <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecanteController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/SecanteController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#1213:1967" expanded="false" />
+                <element signature="method#handle#0;class#1213:1967" expanded="false" />
+                <element signature="method#initGrapS#0;class#SecanteController#0" expanded="false" />
+                <element signature="method#getFun#0;class#SecanteController#0" expanded="false" />
+                <element signature="method#getXi#0;class#SecanteController#0" expanded="false" />
+                <element signature="method#getXiminus1#0;class#SecanteController#0" expanded="false" />
+                <element signature="method#getErr#0;class#SecanteController#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -37,8 +57,8 @@
       <file leaf-file-name="IteracionSecante.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionSecante.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="120">
+              <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="62" />
               <folding>
                 <element signature="e#848#849#0" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
@@ -54,6 +74,62 @@
                 <element signature="e#1190#1191#0" expanded="true" />
                 <element signature="e#1220#1221#0" expanded="true" />
                 <element signature="e#1246#1247#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Secante.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Metods/Secante.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-180">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1918#1919#0" expanded="true" />
+                <element signature="e#1946#1947#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Secante_fxml.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/FXML/Secante_fxml.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+              <folding>
+                <element signature="n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReglaF_FXML.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="85" column="60" lean-forward="false" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
+              <folding>
+                <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReglaFController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2370">
+              <caret line="115" column="41" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="115" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,18 +153,6 @@
                 <element signature="e#933#934#0" expanded="true" />
                 <element signature="e#965#966#0" expanded="true" />
                 <element signature="e#993#994#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Secante.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/Metods/Secante.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="55" column="49" lean-forward="false" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,7 +201,6 @@
         <option value="$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java" />
         <option value="$PROJECT_DIR$/src/NM/Metods/Bisection.java" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/Controller.java" />
-        <option value="$PROJECT_DIR$/src/NM/FXML/Secante_fxml.fxml" />
         <option value="$PROJECT_DIR$/src/NM/FXML/Parcial1.fxml" />
         <option value="$PROJECT_DIR$/src/NM/FXML/Parcial2.fxml" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java" />
@@ -153,8 +216,10 @@
         <option value="$PROJECT_DIR$/src/NM/FXML/NewtonRaphson_fxml.fxml" />
         <option value="$PROJECT_DIR$/src/Database/Model/IteracionNewton.java" />
         <option value="$PROJECT_DIR$/src/Database/Model/IteracionSecante.java" />
-        <option value="$PROJECT_DIR$/src/NM/Metods/Secante.java" />
         <option value="$PROJECT_DIR$/src/NM/Main.java" />
+        <option value="$PROJECT_DIR$/src/NM/FXML/Secante_fxml.fxml" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/Secante.java" />
+        <option value="$PROJECT_DIR$/src/NM/Controllers/SecanteController.java" />
       </list>
     </option>
   </component>
@@ -200,13 +265,6 @@
               <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
               <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-              <item name="Dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="NM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -214,14 +272,7 @@
               <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="NM" type="462c0819:PsiDirectoryNode" />
-              <item name="FXML" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="NM" type="462c0819:PsiDirectoryNode" />
-              <item name="Metods" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -546,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521489912181</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Agrege la escena para punto fijo , Regla falsa y Newton Raphson.&#10;  #Lo unico que no so ve en la tableview son los errores.">
+      <created>1521491104656</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1521491104656</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -791,23 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/SecanteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/Secante_fxml.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="59" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial1.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -942,19 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="85" column="60" lean-forward="false" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
-          <folding>
-            <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/Controllers/BisController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="787">
@@ -962,16 +990,6 @@
           <folding>
             <element signature="method#initialize#0;class#BisController#0" expanded="false" />
             <element signature="method#initGrphic#0;class#BisController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2880">
-          <caret line="114" column="25" lean-forward="false" selection-start-line="74" selection-start-column="12" selection-end-line="115" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1055,10 +1073,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/Secante_fxml.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="43" column="6" lean-forward="false" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding>
+            <element signature="n#center#0;n#BorderPane#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="85" column="60" lean-forward="false" selection-start-line="85" selection-start-column="60" selection-end-line="85" selection-end-column="60" />
+          <folding>
+            <element signature="n#top#0;n#BorderPane#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Secante.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#1946#1947#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionSecante.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="4" column="62" lean-forward="false" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="62" />
           <folding>
             <element signature="e#848#849#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
@@ -1078,20 +1134,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Secante.java">
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="55" column="49" lean-forward="false" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
+        <state relative-caret-position="2370">
+          <caret line="115" column="41" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="115" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/SecanteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="40" column="41" lean-forward="false" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#1213:1967" expanded="false" />
+            <element signature="method#handle#0;class#1213:1967" expanded="false" />
+            <element signature="method#initGrapS#0;class#SecanteController#0" expanded="false" />
+            <element signature="method#getFun#0;class#SecanteController#0" expanded="false" />
+            <element signature="method#getXi#0;class#SecanteController#0" expanded="false" />
+            <element signature="method#getXiminus1#0;class#SecanteController#0" expanded="false" />
+            <element signature="method#getErr#0;class#SecanteController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
+        <state relative-caret-position="381">
+          <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
