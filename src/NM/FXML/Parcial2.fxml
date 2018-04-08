@@ -7,22 +7,44 @@
 <?import javafx.scene.layout.*?>
 
 <?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.text.Font?>
 <BorderPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="NM.Controllers.Parcial2Controller"
             prefHeight="400.0" prefWidth="600.0">
     <top>
-        <Label text="PARCIAL 2" BorderPane.alignment="CENTER"/>
+        <Label text="PARCIAL 2" textFill="#45d1cc" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Britannic Bold" size="35.0" />
+            </font>
+        </Label>
     </top>
     <center>
-        <VBox alignment="CENTER" BorderPane.alignment="CENTER" spacing="40">
-            <Button fx:id="btnPF" text="Punto Fijo"/>
-            <Button fx:id="btnNR" text="Newton-Raphson"/>
-            <Button fx:id="btnSE" text="Secante"/>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="40.0" BorderPane.alignment="CENTER">
+
+            <Button fx:id="btnPF" mnemonicParsing="false" text="Método de Punto Fijo">
+                <font>
+                    <Font name="Britannic Bold" size="16.0" />
+                </font>
+            </Button>
+
+            <Button fx:id="btnNR" mnemonicParsing="false" text="Método de Newton-Raphson">
+                <font>
+                    <Font name="Britannic Bold" size="16.0" />
+                </font>
+            </Button>
+
+            <Button fx:id="btnSE" mnemonicParsing="false" text="Método de la Secante">
+                <font>
+                    <Font name="Britannic Bold" size="16.0" />
+                </font>
+            </Button>
+
         </VBox>
     </center>
+
     <bottom>
-        <Button fx:id="backbtn" text="back" contentDisplay="TOP" prefHeight="70" prefWidth="70" BorderPane.alignment="BOTTOM_RIGHT">
+        <Button fx:id="regresar" text="back" contentDisplay="TOP" prefHeight="70" prefWidth="70" BorderPane.alignment="BOTTOM_RIGHT">
             <graphic>
                 <MaterialDesignIconView fill="cornflowerblue" glyphName="KEYBOARD_RETURN" glyphSize="40"/>
             </graphic>

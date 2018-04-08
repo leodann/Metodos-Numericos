@@ -118,6 +118,7 @@ public class SecanteController implements Initializable {
     }
 
     private void initTableS(){
+        tableSecante.getItems().clear();
         tableSecante.setItems(se.getData());
     }
 

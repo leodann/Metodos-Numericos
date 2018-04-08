@@ -12,100 +12,10 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<BorderPane prefHeight="960.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="NM.Controllers.BisController">
-
-        <top>
-            <GridPane hgap="10" vgap="10" BorderPane.alignment="TOP_LEFT">
-                <Label text="Ingrese su función:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-                <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="0">
-                    <Label text="f(x) = " />
-                    <TextField fx:id="funcion" prefHeight="20" prefWidth="150" />
-                </HBox>
-
-                <Label text="Ingrese su primer limite: " GridPane.columnIndex="0" GridPane.rowIndex="1" />
-                <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="1">
-                    <Label text="a    = " />
-                    <TextField fx:id="a" prefHeight="20" prefWidth="150" />
-                </HBox>
-
-                <Label text="Ingrese su segundo limite: " GridPane.columnIndex="0" GridPane.rowIndex="2" />
-                <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="2">
-                    <Label text="b    = " />
-                    <TextField fx:id="b" prefHeight="20" prefWidth="150" />
-                </HBox>
-
-                <Label text="Ingrese el error permitido: " GridPane.rowIndex="4" />
-                <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="4">
-                    <Label text="err  = " />
-                    <TextField fx:id="ep" prefHeight="20" prefWidth="150" />
-                </HBox>
-                <Button fx:id="btngrafica" prefHeight="25.0" prefWidth="143.0" text="Graficar" GridPane.rowIndex="6" />
-                <Button fx:id="btnIngresa" prefHeight="20" prefWidth="100" text="Ingresar" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.rowSpan="3" />
-                   <GridPane alignment="CENTER" hgap="10" vgap="10" GridPane.columnIndex="4" GridPane.rowIndex="4">
-                       <Button fx:id="btn1" prefHeight="40" prefWidth="40" text="1" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-                       <Button fx:id="btn2" prefHeight="40" prefWidth="40" text="2" GridPane.columnIndex="1" GridPane.rowIndex="0" />
-                       <Button fx:id="btn3" prefHeight="40" prefWidth="40" text="3" GridPane.columnIndex="2" GridPane.rowIndex="0" />
-                       <Button fx:id="btnpor" prefHeight="40" prefWidth="40" text="*" GridPane.columnIndex="4" GridPane.rowIndex="0" />
-                       <Button fx:id="btnx" prefHeight="40" prefWidth="40" text="x" GridPane.columnIndex="5" GridPane.rowIndex="0" />
-   
-   
-                       <Button fx:id="btn4" prefHeight="40" prefWidth="40" text="4" GridPane.columnIndex="0" GridPane.rowIndex="1" />
-                       <Button fx:id="btn5" prefHeight="40" prefWidth="40" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                       <Button fx:id="btn6" prefHeight="40" prefWidth="40" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                       <Button fx:id="btnmas" prefHeight="40" prefWidth="40" text="+" GridPane.columnIndex="4" GridPane.rowIndex="1" />
-                       <Button fx:id="btnclear" prefHeight="40" prefWidth="40" text="C" GridPane.columnIndex="5" GridPane.rowIndex="1" />
-   
-   
-                       <Button fx:id="btn7" prefHeight="40" prefWidth="40" text="7" GridPane.columnIndex="0" GridPane.rowIndex="2" />
-                       <Button fx:id="btn8" prefHeight="40" prefWidth="40" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                       <Button fx:id="btn9" prefHeight="40" prefWidth="40" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                       <Button fx:id="btnmenos" prefHeight="40" prefWidth="40" text="-" GridPane.columnIndex="4" GridPane.rowIndex="2" />
-                       <Button fx:id="btnsqrt" prefHeight="40" prefWidth="40" text="√" GridPane.columnIndex="5" GridPane.rowIndex="2" />
-   
-                       <Button fx:id="btn0" prefHeight="40" prefWidth="40" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                       <Button fx:id="btnexp" prefHeight="40" prefWidth="40" text="^" GridPane.columnIndex="4" GridPane.rowIndex="3" />
-                       <Button fx:id="btnlog" prefHeight="40" prefWidth="40" text="ln" GridPane.columnIndex="5" GridPane.rowIndex="3" />
-            <columnConstraints>
-               <ColumnConstraints />
-               <ColumnConstraints />
-               <ColumnConstraints maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
-               <ColumnConstraints maxWidth="0.0" minWidth="0.0" prefWidth="0.0" />
-               <ColumnConstraints />
-               <ColumnConstraints />
-            </columnConstraints>
-            <rowConstraints>
-               <RowConstraints />
-               <RowConstraints />
-               <RowConstraints />
-               <RowConstraints />
-            </rowConstraints>
-   
-                   </GridPane>
-         <columnConstraints>
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-            <ColumnConstraints />
-         </columnConstraints>
-         <rowConstraints>
-            <RowConstraints />
-            <RowConstraints />
-            <RowConstraints />
-            <RowConstraints maxHeight="150.0" minHeight="0.0" prefHeight="0.0" />
-            <RowConstraints maxHeight="190.0" minHeight="24.0" prefHeight="26.0" />
-            <RowConstraints maxHeight="166.0" minHeight="0.0" prefHeight="0.0" />
-            <RowConstraints maxHeight="195.0" minHeight="37.0" prefHeight="195.0" />
-            <RowConstraints />
-            <RowConstraints />
-         </rowConstraints>
-
-            </GridPane>
-
-        </top>
+<BorderPane prefHeight="960.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NM.Controllers.BisController">
 
         <center>
-        <TableView fx:id="tabresultados">
+        <TableView fx:id="tabresultados" prefHeight="362.0" prefWidth="1280.0">
             <columns>
 
                 <TableColumn fx:id="tabIteracion" text="Iteración">
@@ -152,7 +62,7 @@
 
                 <TableColumn fx:id="tabErr" text="ERROR">
                     <cellValueFactory>
-                        <PropertyValueFactory property="eA" />
+                        <PropertyValueFactory property="e" />
                     </cellValueFactory>
                 </TableColumn>
 
@@ -160,6 +70,59 @@
         </TableView>
 
     </center>
+   <top>
+       <GridPane hgap="10" vgap="10" BorderPane.alignment="TOP_LEFT">
+           <Label text="Ingrese su función:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+           <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="0">
+               <Label text="f(x) = " />
+               <TextField fx:id="funcion" prefHeight="20" prefWidth="150" />
+           </HBox>
+
+           <Label text="Ingrese su primer limite: " GridPane.columnIndex="0" GridPane.rowIndex="1" />
+           <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <Label text="a    = " />
+               <TextField fx:id="a" prefHeight="20" prefWidth="150" />
+           </HBox>
+
+           <Label text="Ingrese su segundo limite: " GridPane.columnIndex="0" GridPane.rowIndex="2" />
+           <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <Label text="b    = " />
+               <TextField fx:id="b" prefHeight="20" prefWidth="150" />
+           </HBox>
+
+           <Label text="Ingrese el error permitido: " GridPane.rowIndex="4" />
+           <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="4">
+               <Label text="err  = " />
+               <TextField fx:id="ep" prefHeight="20" prefWidth="150" />
+           </HBox>
+           <Button fx:id="btngrafica" prefHeight="25.0" prefWidth="143.0" text="Graficar" GridPane.rowIndex="6" />
+           <Button fx:id="btnIngresa" prefHeight="20" prefWidth="100" text="Ingresar" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+         <Label prefHeight="17.0" prefWidth="368.0" text="Ingrese su función indicando los productos con (*) y  los  exponentes" GridPane.columnIndex="5" />
+         <Label prefHeight="17.0" prefWidth="364.0" text="con (^). Ademas de usar punto decimal en los errores.     Ejemplo:" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+         <Label prefHeight="17.0" prefWidth="368.0" text="                     Función=(x^4-2*x^3-12*x^2) Error:(0.001)" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+
+           <columnConstraints>
+               <ColumnConstraints />
+               <ColumnConstraints />
+               <ColumnConstraints />
+               <ColumnConstraints />
+               <ColumnConstraints />
+            <ColumnConstraints />
+           </columnConstraints>
+           <rowConstraints>
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints />
+               <RowConstraints maxHeight="150.0" minHeight="0.0" prefHeight="0.0" />
+               <RowConstraints maxHeight="190.0" minHeight="24.0" prefHeight="26.0" />
+               <RowConstraints maxHeight="166.0" minHeight="0.0" prefHeight="0.0" />
+               <RowConstraints maxHeight="195.0" minHeight="37.0" prefHeight="44.0" />
+               <RowConstraints />
+           </rowConstraints>
+
+       </GridPane>
+
+   </top>
 
 
 </BorderPane>

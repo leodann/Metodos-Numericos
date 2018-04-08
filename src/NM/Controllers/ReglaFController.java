@@ -118,6 +118,7 @@ public class ReglaFController implements Initializable{
     }
 
     private void InitTableR(){
+        tableReglaF.getItems().clear();
         tableReglaF.setItems(ReF.getData());
     }
 

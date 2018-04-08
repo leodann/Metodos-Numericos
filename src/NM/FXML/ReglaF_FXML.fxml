@@ -1,38 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.cell.PropertyValueFactory?>
-<BorderPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="NM.Controllers.ReglaFController"
-            prefHeight="960.0" prefWidth="1280.0">
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane prefHeight="960.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NM.Controllers.ReglaFController">
     <top>
         <GridPane hgap="40" vgap="40" BorderPane.alignment="TOP_LEFT">
-            <Label text="Ingrese su función " GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-            <HBox spacing="10" GridPane.rowIndex="0" GridPane.columnIndex="2">
-                <Label text="f(x) = "/> <TextField fx:id="funcionTF" prefWidth="150" prefHeight="20" />
+            <Label text="Ingrese su función " GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                <Label text="f(x) = " /> <TextField fx:id="funcionTF" prefHeight="20" prefWidth="150" />
             </HBox>
-            <Label text="Ingrese el primer limite" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
-            <HBox spacing="10" GridPane.rowIndex="1" GridPane.columnIndex="2">
-                <Label text="a   = "/> <TextField fx:id="aTF" prefWidth="150" prefHeight="20"/>
+            <Label text="Ingrese el primer limite" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <Label text="a   = " /> <TextField fx:id="aTF" prefHeight="20" prefWidth="150" />
             </HBox>
-            <Label text="Ingrese el segundo limite" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
-            <HBox spacing="10" GridPane.rowIndex="2" GridPane.columnIndex="2">
-                <Label text="b   = "/> <TextField fx:id="bTF" prefWidth="150" prefHeight="20"/>
+            <Label text="Ingrese el segundo limite" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <Label text="b   = " /> <TextField fx:id="bTF" prefHeight="20" prefWidth="150" />
             </HBox>
-            <Label text="Ingrese el error esperado" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
-            <HBox spacing="10" GridPane.rowIndex="3" GridPane.columnIndex="2">
-                <Label text="ep = "/> <TextField fx:id="epTF" prefWidth="150" prefHeight="20"/>
+            <Label text="Ingrese el error esperado" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                <Label text="ep = " /> <TextField fx:id="epTF" prefHeight="20" prefWidth="150" />
             </HBox>
-            <HBox spacing="30" GridPane.rowIndex="4" GridPane.columnIndex="1">
-                <Button fx:id="graficarBTN" text="Graficar"/>
-                <Button fx:id="ingresaBTN" text="Ingresar"/>
+            <HBox spacing="30" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                <Button fx:id="graficarBTN" text="Graficar" />
+                <Button fx:id="ingresaBTN" text="Ingresar" />
             </HBox>
+         <Label prefHeight="17.0" prefWidth="378.0" text="Ingrese su función indicando los productos con (*) y  los  exponentes" GridPane.columnIndex="3" />
+         <Label prefHeight="17.0" prefWidth="378.0" text="con (^). Ademas de usar punto decimal en los errores.     Ejemplo:" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+         <Label prefHeight="17.0" prefWidth="374.0" text="                     Función=(x^4-2*x^3-12*x^2) Error:(0.001)" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
         </GridPane>
     </top>
 
@@ -41,49 +59,49 @@
             <columns>
                 <TableColumn fx:id="iteracionRF" text="iteración">
                     <cellValueFactory>
-                        <PropertyValueFactory property="iteracion"/>
+                        <PropertyValueFactory property="iteracion" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabARF" text="A">
                     <cellValueFactory>
-                        <PropertyValueFactory property="a"/>
+                        <PropertyValueFactory property="a" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabBRF" text="B">
                     <cellValueFactory>
-                        <PropertyValueFactory property="b"/>
+                        <PropertyValueFactory property="b" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabFaRF" text="f(a)">
                     <cellValueFactory>
-                        <PropertyValueFactory property="f_a"/>
+                        <PropertyValueFactory property="f_a" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabFbRF" text="f(b)">
                     <cellValueFactory>
-                        <PropertyValueFactory property="f_b"/>
+                        <PropertyValueFactory property="f_b" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabXrRF" text="Xr">
                     <cellValueFactory>
-                        <PropertyValueFactory property="xr"/>
+                        <PropertyValueFactory property="xr" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabFxrRF" text="f(Xr)">
                     <cellValueFactory>
-                        <PropertyValueFactory property="f_xr"/>
+                        <PropertyValueFactory property="f_xr" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabErrorRF" text="Error">
                     <cellValueFactory>
-                        <PropertyValueFactory property="E"/>
+                        <PropertyValueFactory property="e" />
                     </cellValueFactory>
                 </TableColumn>
 
