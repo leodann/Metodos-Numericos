@@ -1,37 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.cell.PropertyValueFactory?>
-<BorderPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="NM.Controllers.NewtonRaphsonController"
-            prefHeight="960.0" prefWidth="1280.0">
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane prefHeight="960.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NM.Controllers.NewtonRaphsonController">
     <top>
         <GridPane hgap="40" vgap="40" BorderPane.alignment="TOP_LEFT">
-            <Label text="Ingresa una función" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
-            <HBox spacing="10" GridPane.rowIndex="0" GridPane.columnIndex="2">
-                <Label text="f(x)= "/>  <TextField fx:id="fx_TF" prefWidth="150" prefHeight="20"/>
+            <Label text="Ingresa una función" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                <Label text="f(x)= " />  <TextField fx:id="fx_TF" prefHeight="20" prefWidth="150" />
             </HBox>
 
-            <Label text="Ingresa la x inicial " GridPane.rowIndex="1" GridPane.columnIndex="0"/>
-            <HBox spacing="10" GridPane.rowIndex="1" GridPane.columnIndex="2">
-                <Label text="xi  = "/> <TextField fx:id="Xi_TF" prefWidth="150" prefHeight="20"/>
+            <Label text="Ingresa la x inicial " GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <Label text="xi  = " /> <TextField fx:id="Xi_TF" prefHeight="20" prefWidth="150" />
             </HBox>
 
-            <Label text="Ingresa el error esperado " GridPane.rowIndex="2" GridPane.columnIndex="0"/>
-            <HBox spacing="10" GridPane.rowIndex="2" GridPane.columnIndex="2">
-                <Label text="ep = "/> <TextField fx:id="eP_TF" prefWidth="150" prefHeight="20"/>
+            <Label text="Ingresa el error esperado " GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <HBox spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                <Label text="ep = " /> <TextField fx:id="eP_TF" prefHeight="20" prefWidth="150" />
             </HBox>
 
-            <HBox spacing="40" GridPane.rowIndex="4" GridPane.columnIndex="1">
-                <Button fx:id="GraficaBtn" text="Grafica"/>
-                <Button fx:id="IngresaBtn" text="Ingresar"/>
+            <HBox spacing="40" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                <Button fx:id="GraficaBtn" text="Grafica" />
+                <Button fx:id="IngresaBtn" text="Ingresar" />
             </HBox>
+         <Label prefHeight="17.0" prefWidth="369.0" text="Ingrese su función indicando los productos con (*) y  los  exponentes" GridPane.columnIndex="3" />
+         <Label prefHeight="17.0" prefWidth="416.0" text="con (^). Ademas de usar punto decimal en los errores.     Ejemplo:" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+         <Label prefHeight="17.0" prefWidth="414.0" text="                     Función=(x^4-2*x^3-12*x^2) Error:(0.001)" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
         </GridPane>
 
     </top>
@@ -42,37 +60,37 @@
 
                 <TableColumn fx:id="tabNit" text="iteración">
                     <cellValueFactory>
-                        <PropertyValueFactory property="iteracion"/>
+                        <PropertyValueFactory property="iteracion" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabNxi" text="Xi">
                     <cellValueFactory>
-                        <PropertyValueFactory property="Xi"/>
+                        <PropertyValueFactory property="Xi" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabNfxi" text="f(Xi)">
                     <cellValueFactory>
-                        <PropertyValueFactory property="f_Xi"/>
+                        <PropertyValueFactory property="f_Xi" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabNFxi" text="f´(Xi)">
                     <cellValueFactory>
-                        <PropertyValueFactory property="Fp_Xi"/>
+                        <PropertyValueFactory property="Fp_Xi" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabNxiadd1" text="Xi+1">
                     <cellValueFactory>
-                        <PropertyValueFactory property="Xiadd1"/>
+                        <PropertyValueFactory property="Xiadd1" />
                     </cellValueFactory>
                 </TableColumn>
 
                 <TableColumn fx:id="tabNep" text="Error">
                     <cellValueFactory>
-                        <PropertyValueFactory property="eP"/>
+                        <PropertyValueFactory property="e" />
                     </cellValueFactory>
                 </TableColumn>
             </columns>

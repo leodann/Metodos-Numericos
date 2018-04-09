@@ -16,15 +16,17 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class Parcial2Controller implements Initializable {
+
+    private Stage StageP1;
     @FXML
-    Button btnPF,btnNR,btnSE,backbtn;
+    Button btnPF,btnNR,btnSE, regresar;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         btnNR.setOnAction(ListenerButtons);
         btnPF.setOnAction(ListenerButtons);
         btnSE.setOnAction(ListenerButtons);
-        backbtn.setOnAction(ListenerButtons);
+        regresar.setOnAction(ListenerButtons);
     }
 
     EventHandler<ActionEvent> ListenerButtons = new EventHandler<ActionEvent>() {
@@ -53,6 +55,11 @@ public class Parcial2Controller implements Initializable {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
+
+             if(event.getSource() == regresar)
+             {
+                 System.exit(0);
+             }
 
             }
         }
@@ -88,5 +95,17 @@ public class Parcial2Controller implements Initializable {
             StageP2.setScene(sceneP1);
             StageP2.setMaximized(true);
         }
+
     }
+
+
+    private void back() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("../FXML/MenuFXML.fxml"));
+        Scene scene = new Scene(root,400,400);
+        scene.getStylesheets().add("resources/css/DarkTheme.css");
+        StageP1 = Main.homeS;
+        StageP1.setScene(scene);
+        StageP1.setMaximized(false);
+    }
+
 }

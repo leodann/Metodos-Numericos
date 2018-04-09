@@ -64,6 +64,7 @@ public class NewtonRaphsonController implements Initializable {
     };
 
     private void initTabaleN(){
+        table_NR.getItems().clear();
         table_NR.setItems(NR.getDataN());
     }
 

@@ -79,11 +79,11 @@ public class parcial1cont implements Initializable
     }
 
     private void Rback() throws IOException {
-        Parent Parcial1 = FXMLLoader.load(getClass().getResource("../FXML/MenuFXML.fxml"));
-        Scene sceneP1 = new Scene(Parcial1);
-        sceneP1.getStylesheets().add("resources/css/DarkTheme.css");
+        Parent root = FXMLLoader.load(getClass().getResource("../FXML/MenuFXML.fxml"));
+        Scene scene = new Scene(root,400,400);
+        scene.getStylesheets().add("resources/css/DarkTheme.css");
         StageP1 = Main.homeS;
-        StageP1.setScene(sceneP1);
+        StageP1.setScene(scene);
         StageP1.setMaximized(false);
     }
 }

@@ -1,6 +1,6 @@
 package NM.Metods;
 
-import Database.Model.Dao.IteracionPuntoF;
+import Database.Model.IteracionPuntoF;
 import NM.Func.Func;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

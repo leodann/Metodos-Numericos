@@ -31,7 +31,7 @@ import java.util.ResourceBundle;
 
 public class BisController implements Initializable {
     @FXML
-    Button btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn0, btnpor, btnx, btnmas, btnclear, btnmenos, btnsqrt, btnexp, btnlog, btnIngresa,btngrafica;
+    Button btnIngresa,btngrafica;
     @FXML
     TextField funcion, a, b, ep;
     @FXML
@@ -52,40 +52,7 @@ public class BisController implements Initializable {
             if(event.getSource()==btngrafica) {
                 initGrphic();
             }
-            if (event.getSource() == btn1)
-                setfuncion(btn1);
-            if (event.getSource() == btn2)
-                setfuncion(btn2);
-            if (event.getSource() == btn3)
-                setfuncion(btn3);
-            if (event.getSource() == btn4)
-                setfuncion(btn4);
-            if (event.getSource() == btn5)
-                setfuncion(btn5);
-            if (event.getSource() == btn6)
-                setfuncion(btn6);
-            if (event.getSource() == btn7)
-                setfuncion(btn7);
-            if (event.getSource() == btn8)
-                setfuncion(btn8);
-            if (event.getSource() == btn9)
-                setfuncion(btn9);
-            if (event.getSource() == btn0)
-                setfuncion(btn0);
-            if (event.getSource() == btnx)
-                setfuncion(btnx);
-            if (event.getSource() == btnexp)
-                setfuncion(btnexp);
-            if (event.getSource() == btnsqrt)
-                setfuncion(btnsqrt);
-            if (event.getSource() == btnpor)
-                setfuncion(btnpor);
-            if (event.getSource() == btnmas)
-                setfuncion(btnmas);
-            if (event.getSource() == btnmenos)
-                setfuncion(btnmenos);
-            if (event.getSource() == btnlog)
-                setfuncion(btnlog);
+
         }
 
     };
@@ -140,24 +107,7 @@ public class BisController implements Initializable {
         b.setOnMouseClicked(ListenerFields);
         ep.setOnMouseClicked(ListenerFields);
 
-        btn0.setOnAction(ListenerBtns);
-        btn1.setOnAction(ListenerBtns);
-        btn2.setOnAction(ListenerBtns);
-        btn3.setOnAction(ListenerBtns);
-        btn4.setOnAction(ListenerBtns);
-        btn5.setOnAction(ListenerBtns);
-        btn6.setOnAction(ListenerBtns);
-        btn7.setOnAction(ListenerBtns);
-        btn8.setOnAction(ListenerBtns);
-        btn9.setOnAction(ListenerBtns);
-        btnpor.setOnAction(ListenerBtns);
-        btnmas.setOnAction(ListenerBtns);
-        btnclear.setOnAction(ListenerBtns);
-        btnmenos.setOnAction(ListenerBtns);
-        btnsqrt.setOnAction(ListenerBtns);
-        btnexp.setOnAction(ListenerBtns);
-        btnlog.setOnAction(ListenerBtns);
-        btnx.setOnAction(ListenerBtns);
+
         btnIngresa.setOnAction(ListenerBtns);
         btngrafica.setOnAction(ListenerBtns);
     }
@@ -204,6 +154,7 @@ public class BisController implements Initializable {
     }
 
     private void initTableTransactions() {
+        tabresultados.getItems().clear();
         tabresultados.setItems(Bis.getData());
 
     }

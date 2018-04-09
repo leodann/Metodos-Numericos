@@ -1,6 +1,6 @@
 package NM.Controllers;
 
-import Database.Model.Dao.IteracionPuntoF;
+import Database.Model.IteracionPuntoF;
 import NM.Func.Func;
 import NM.Metods.PuntoFijo;
 import javafx.event.ActionEvent;
@@ -120,6 +120,7 @@ public class PuntoFijoController implements Initializable {
     }
 
     private void initTab(){
+        tabPF.getItems().clear();
         tabPF.setItems(pf.getData());
     }
 
