@@ -20,7 +20,7 @@ import static NM.Controllers.parcial1cont.StageP1;
 public class Parcial3Controller implements Initializable
 {
     @FXML
-    Button btnJacobi, btnSeidel, btnNRMulti, btnAprox, regresar;
+    Button btnJacobi, btnSeidel, btnNRMulti, btnAprox, regresar,btnInterpol;
 
 
     @Override
@@ -30,6 +30,7 @@ public class Parcial3Controller implements Initializable
         btnNRMulti.setOnAction(ListenerButtons);
         btnAprox.setOnAction(ListenerButtons);
         regresar.setOnAction(ListenerButtons);
+        btnInterpol.setOnAction(ListenerButtons);
     }
 
     EventHandler<ActionEvent> ListenerButtons = new EventHandler<ActionEvent>() {
@@ -75,6 +76,12 @@ public class Parcial3Controller implements Initializable
                     e.printStackTrace();
                 }
             }
+
+            if(event.getSource() == btnInterpol){
+                try{
+                    pantallaMetodo(btnInterpol);
+                }catch (IOException e){e.printStackTrace();}
+            }
         }
     };
 
@@ -112,6 +119,15 @@ public class Parcial3Controller implements Initializable
         if(btn == btnAprox){
             Stage StageP2;
             Parent Parcial2 = FXMLLoader.load(getClass().getResource("../FXML/AproxFuncional.fxml"));
+            Scene sceneP1 = new Scene(Parcial2);
+            sceneP1.getStylesheets().add("resources/css/DarkTheme.css");
+            StageP2 = Main.homeS;
+            StageP2.setScene(sceneP1);
+            StageP2.setMaximized(true);
+        }
+        if(btn == btnInterpol){
+            Stage StageP2;
+            Parent Parcial2 = FXMLLoader.load(getClass().getResource("../FXML/Lagrange.fxml"));
             Scene sceneP1 = new Scene(Parcial2);
             sceneP1.getStylesheets().add("resources/css/DarkTheme.css");
             StageP2 = Main.homeS;

@@ -2,6 +2,7 @@ package NM.Metods;
 
 import NM.Func.Func;
 
+
 public class Interpolacion {
     private double x,x1,x0,f1,f0,fx,error,realfx;
     private String f;
@@ -51,5 +52,51 @@ public class Interpolacion {
         return Roundres;
     }
 
+    public double getX1() {
+        return x1;
+    }
 
+    public void setX1(double x1) {
+        this.x1 = x1;
+    }
+
+    public double getX0() {
+        return x0;
+    }
+
+    public void setX0(double x0) {
+        this.x0 = x0;
+    }
+
+    public double getF1() {
+        return f1;
+    }
+
+    public void setF1(double f1) {
+        this.f1 = f1;
+    }
+
+    public double getF0() {
+        return f0;
+    }
+
+    public void setF0(double f0) {
+        this.f0 = f0;
+    }
+
+    public double getError() {
+        return error;
+    }
+
+    public void setError(double error) {
+        this.error = error;
+    }
+
+    public double getRealfx() {
+        return realfx;
+    }
+
+    public void setRealfx(double realfx) {
+        this.realfx = realfx;
+    }
 }

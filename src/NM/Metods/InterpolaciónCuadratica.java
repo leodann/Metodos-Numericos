@@ -52,4 +52,60 @@ public class InterpolaciónCuadratica {
         Roundres = (Roundres/Math.pow(10,6))+Entero;
         return Roundres;
     }
+
+    public double getX_0() {
+        return X_0;
+    }
+
+    public void setX_0(double x_0) {
+        X_0 = x_0;
+    }
+
+    public double getX_1() {
+        return X_1;
+    }
+
+    public void setX_1(double x_1) {
+        X_1 = x_1;
+    }
+
+    public double getX_2() {
+        return X_2;
+    }
+
+    public void setX_2(double x_2) {
+        X_2 = x_2;
+    }
+
+    public double getF_0() {
+        return f_0;
+    }
+
+    public void setF_0(double f_0) {
+        this.f_0 = f_0;
+    }
+
+    public double getF_1() {
+        return f_1;
+    }
+
+    public void setF_1(double f_1) {
+        this.f_1 = f_1;
+    }
+
+    public double getF_2() {
+        return f_2;
+    }
+
+    public void setF_2(double f_2) {
+        this.f_2 = f_2;
+    }
+
+    public double getRes() {
+        return res;
+    }
+
+    public void setRes(double res) {
+        this.res = res;
+    }
 }

@@ -23,8 +23,11 @@ public class Main extends Application{
     }
 
     public static void main(String[] args) {
-        InterpolaciónCuadratica ic = new InterpolaciónCuadratica("f(x) = log10(x)",4.0,3,4.5,5);
+        //InterpolaciónCuadratica ic = new InterpolaciónCuadratica("f(x) = log10(x)",4.0,3,4.5,5);
         //launch(args);
+        double [] x  = {0.25,0.75,1.25,1.5,2.0};
+        double [] y = {-0.23,-0.33,0.70,1.9,6.0};
+        RegresionPolinomial r = new RegresionPolinomial(x,y);
         // Interpolacion i = new Interpolacion("f(x) = log10(x)",4.0,3,4.5);
         //Bisection b1 = new Bisection(-1.5,-0.5,0.001,"f(x)=2*x^2-2*x-3");
         //ReglaFalsa r1 = new ReglaFalsa(2.8,3.3,0.01,"f(x)=x^2-2*x-3");

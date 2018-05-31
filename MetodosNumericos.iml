@@ -9,5 +9,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="MathParser.org-mXparser-jdk18-4.1.1" level="project" />
     <orderEntry type="library" name="fontawesomefx-8.9" level="project" />
+    <orderEntry type="library" name="jep-java-3.4-trial" level="project" />
+    <orderEntry type="library" name="djep-1.0.0" level="project" />
   </component>
 </module>

@@ -46,6 +46,12 @@
                 </font>
             </Button>
 
+            <Button fx:id="btnInterpol" mnemonicParsing="false" text="Interpolacion">
+                <font>
+                    <Font name="Britannic Bold" size="16.0" />
+                </font>
+            </Button>
+
         </VBox>
     </center>
 

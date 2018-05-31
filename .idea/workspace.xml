@@ -7,16 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7be6963d-063a-4e79-a29a-ebada51192db" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NM/Controllers/AproxFuncionalController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NM/Controllers/Parcial3Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NM/Controllers/Parcial4Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NM/FXML/AproxFuncional.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NM/FXML/Parcial3.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NM/FXML/Parcial4.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NM/Metods/AproxFuncional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/djep_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jep_java_3_4_trial.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/djep-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jep-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/jep-java-3.4-trial.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/Controllers/InterpolacionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/Controllers/InterpolaciónCuadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/Controllers/LagrangeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/FXML/Interpolación.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/FXML/InterpolaciónCuad.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/FXML/Lagrange.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/Func/Funcion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/Metods/FakeJacobo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/Metods/InterpolLagrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/Metods/NewtonRaphsonMultivariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/Metods/RegresionPolinomial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetodosNumericos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MetodosNumericos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/Parcial3Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Controllers/Parcial3Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NM/FXML/Parcial3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/FXML/Parcial3.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NM/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NM/Metods/Interpolacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Metods/Interpolacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NM/Metods/InterpolaciónCuadratica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Metods/InterpolaciónCuadratica.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,30 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Parcial4.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial4.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parcial4Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Parcial4Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Parcial3Controller.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Parcial3Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="40" />
+            <state relative-caret-position="256">
+              <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,12 +58,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parcial3.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial3.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+      <file leaf-file-name="Interpolacion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Metods/Interpolacion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state relative-caret-position="366">
+              <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+              <folding>
+                <element signature="e#1728#1729#0" expanded="true" />
+                <element signature="e#1753#1754#0" expanded="true" />
+                <element signature="e#1846#1847#0" expanded="true" />
+                <element signature="e#1871#1872#0" expanded="true" />
+                <element signature="e#1964#1965#0" expanded="true" />
+                <element signature="e#1989#1990#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FakeJacobo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Metods/FakeJacobo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9624">
+              <caret line="401" column="21" selection-start-line="401" selection-start-column="21" selection-end-line="401" selection-end-column="21" />
+              <folding>
+                <element signature="e#37187#37188#0" expanded="true" />
+                <element signature="e#37221#37222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewtonRaphsonMultivariable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Metods/NewtonRaphsonMultivariable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3480">
+              <caret line="145" column="3" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#5069#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegresionPolinomial.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NM/Metods/RegresionPolinomial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Funcion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NM/Func/Funcion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1494">
+              <caret line="65" column="3" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#1791#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,20 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/FXML/BisectionFXML.fxml" />
-        <option value="$PROJECT_DIR$/src/NM/FXML/BisectionFXML.fxml" />
-        <option value="$PROJECT_DIR$/src/NM/Function/Function.java" />
-        <option value="$PROJECT_DIR$/src/NM/Function/Functions.java" />
-        <option value="$PROJECT_DIR$/src/Database/Model/IteracionBisecDAO.java" />
-        <option value="$USER_HOME$/Desktop/LEO_DANONINO/AtomProjects/AtomJava/ExperimentosTableView/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/NM/FXML/MenuFXML.fxml" />
-        <option value="$PROJECT_DIR$/src/NM/Controllers/TablaBiseccion.java" />
-        <option value="$PROJECT_DIR$/src/NM/FXML/TablaResultados.fxml" />
-        <option value="$PROJECT_DIR$/src/NM/FXML/Graphic.fxml" />
-        <option value="$PROJECT_DIR$/src/NM/FXML/TablaBiseccion.fxml" />
-        <option value="$PROJECT_DIR$/src/Database/Model/Dao/IteracionBisecDAO.java" />
-        <option value="$PROJECT_DIR$/src/NM/FXML/MeterFuncion.fxml" />
         <option value="$PROJECT_DIR$/src/NM/Func/Func.java" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/MeterFcnController.java" />
         <option value="$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java" />
@@ -134,60 +167,76 @@
         <option value="$PROJECT_DIR$/src/NM/Metods/AproxFuncional.java" />
         <option value="$PROJECT_DIR$/src/NM/FXML/AproxFuncional.fxml" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/AproxFuncionalController.java" />
-        <option value="$PROJECT_DIR$/src/NM/Main.java" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/Controller.java" />
         <option value="$PROJECT_DIR$/src/NM/FXML/Parcial4.fxml" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/Parcial4Controller.java" />
+        <option value="$PROJECT_DIR$/src/NM/FXML/Interpoación.fxml" />
+        <option value="$PROJECT_DIR$/src/NM/Controllers/InterpolaciónController.java" />
+        <option value="$PROJECT_DIR$/src/Database/Model/IteracionInterpol.java" />
+        <option value="$PROJECT_DIR$/src/NM/FXML/InterpolaciónCuad.fxml" />
         <option value="$PROJECT_DIR$/src/NM/FXML/Parcial3.fxml" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/InterpolaciónCuadratica.java" />
+        <option value="$PROJECT_DIR$/src/NM/Controllers/InterpolaciónCuadController.java" />
+        <option value="$PROJECT_DIR$/src/NM/FXML/Interpolación.fxml" />
+        <option value="$PROJECT_DIR$/src/NM/Controllers/InterpolacionController.java" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/Interpolacion.java" />
         <option value="$PROJECT_DIR$/src/NM/Controllers/Parcial3Controller.java" />
+        <option value="$PROJECT_DIR$/src/NM/FXML/Lagrange.fxml" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/InterpolLagrange.java" />
+        <option value="$PROJECT_DIR$/src/NM/Controllers/LagrangeController.java" />
+        <option value="$PROJECT_DIR$/src/NM/Func/Funcion.java" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/NewtonRaphsonMultivariable.java" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/FakeJacobo.java" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/RegresionPolinomial.java" />
+        <option value="$PROJECT_DIR$/src/NM/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="182" />
+    <option name="y" value="27" />
+    <option name="width" value="1614" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Metodos-Numericos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Metodos-Numericos" type="462c0819:PsiDirectoryNode" />
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Metodos-Numericos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Metodos-Numericos" type="462c0819:PsiDirectoryNode" />
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Metodos-Numericos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Metodos-Numericos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="NM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Metodos-Numericos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Metodos-Numericos" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="NM" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Metodos-Numericos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Metodos-Numericos" type="462c0819:PsiDirectoryNode" />
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="NM" type="462c0819:PsiDirectoryNode" />
-              <item name="FXML" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Metodos-Numericos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Metodos-Numericos" type="462c0819:PsiDirectoryNode" />
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NM" type="462c0819:PsiDirectoryNode" />
+              <item name="Func" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="NM" type="462c0819:PsiDirectoryNode" />
               <item name="Metods" type="462c0819:PsiDirectoryNode" />
@@ -196,19 +245,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/jep-2.3.1.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15745394" />
     <property name="project.structure.side.proportion" value="0.48143852" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Loenardo Villanueva\IdeaProjects\MetodosNumericos\libs" />
       <recent name="C:\Users\Loenardo Villanueva\IdeaProjects\MetodosNumericos\src\NM\FXML" />
       <recent name="C:\Users\Loenardo Villanueva\IdeaProjects\MetodosNumericos\src\NM\Controllers" />
     </key>
@@ -482,17 +531,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32839224" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021482" side_tool="true" weight="0.54846066" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785176" weight="0.44551724" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785176" weight="0.44444445" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49785176" weight="0.32839224" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32839224" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2298177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23288591" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -502,7 +552,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32975295" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32839224" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -536,85 +585,10 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/AproxFuncional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ClaseeeDePrueba.java" />
-    <entry file="file://$USER_HOME$/Desktop/LEO_DANONINO/AtomProjects/AtomJava/ExperimentosTableView/Main.java" />
-    <entry file="file://$USER_HOME$/Desktop/LEO_DANONINO/AtomProjects/AtomJava/ExperimentosTableView/src/Main.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/Graphic.fxml" />
     <entry file="file://$PROJECT_DIR$/src/NM/FXML/TablaResultados.fxml" />
     <entry file="file://$PROJECT_DIR$/src/NM/Controllers/TablaBiseccion.java" />
     <entry file="file://$PROJECT_DIR$/src/NM/FXML/TablaBiseccion.fxml" />
@@ -669,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionBisec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="82" column="5" lean-forward="true" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionSecante.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -725,20 +692,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4709">
-          <caret line="327" selection-start-line="327" selection-end-line="327" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/launcher/LauncherHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9163">
-          <caret line="576" selection-start-line="576" selection-end-line="576" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_171/jre/lib/rt.jar!/sun/launcher/LauncherHelper.class" />
     <entry file="file://$PROJECT_DIR$/src/NM/Controllers/BisController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -746,25 +701,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="51" column="5" selection-start-line="47" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/Metods/AproxFuncional.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2516">
           <caret line="148" column="30" selection-start-line="148" selection-start-column="30" selection-end-line="148" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/AproxFuncional.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -778,48 +718,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial1.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial2.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/FXML/MenuFXML.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial4.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Parcial4Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -837,21 +755,258 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial3.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Parcial4Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionBisec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/BisFXML.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="51" column="5" selection-start-line="47" selection-start-column="3" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionInterpol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/AproxFuncional.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial4.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial3.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="48" column="83" selection-start-line="48" selection-start-column="83" selection-end-line="48" selection-end-column="83" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/InterpolaciónCuadratica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+          <folding>
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+            <element signature="e#1659#1660#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1752#1753#0" expanded="true" />
+            <element signature="e#1778#1779#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#1841#1842#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1897#1898#0" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2021#2022#0" expanded="true" />
+            <element signature="e#2059#2060#0" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2145#2146#0" expanded="true" />
+            <element signature="e#2183#2184#0" expanded="true" />
+            <element signature="e#2213#2214#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2307#2308#0" expanded="true" />
+            <element signature="e#2337#2338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/InterpolaciónCuad.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="98" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="36" selection-end-column="98" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/InterpolacionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/Interpolación.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/InterpolLagrange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="808">
+          <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+          <folding>
+            <element signature="e#2867#2868#0" expanded="true" />
+            <element signature="e#2899#2900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/InterpolaciónCuadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/FXML/Lagrange.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="87" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Controllers/LagrangeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="49" column="59" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/Controllers/Parcial3Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="40" />
+        <state relative-caret-position="-18">
+          <caret line="129" column="86" selection-start-line="129" selection-start-column="86" selection-end-line="129" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Interpolacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+          <folding>
+            <element signature="e#1728#1729#0" expanded="true" />
+            <element signature="e#1753#1754#0" expanded="true" />
+            <element signature="e#1846#1847#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="e#1989#1990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Func/Funcion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1494">
+          <caret line="65" column="3" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#1791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/FakeJacobo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9624">
+          <caret line="401" column="21" selection-start-line="401" selection-start-column="21" selection-end-line="401" selection-end-column="21" />
+          <folding>
+            <element signature="e#37187#37188#0" expanded="true" />
+            <element signature="e#37221#37222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/NewtonRaphsonMultivariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3480">
+          <caret line="145" column="3" selection-start-line="145" selection-start-column="3" selection-end-line="145" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#5069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/RegresionPolinomial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -922,7 +1077,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>fontawesomefx-8.9</last-edited>
+          <last-edited>djep-1.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
