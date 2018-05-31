@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane disable="true" prefHeight="960.0" prefWidth="926.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NM.Controllers.JacobiController">
+   <top>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <top>
+            <Label alignment="CENTER" prefHeight="43.0" prefWidth="272.0" text="Jacobi-Wong" textAlignment="JUSTIFY" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+   </top>
+</BorderPane>
