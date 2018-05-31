@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="NM.Controllers.Parcial3Controller"
+            prefHeight="400.0" prefWidth="600.0">
+    <top>
+        <Label text="PARCIAL 3" textFill="#45d1cc" BorderPane.alignment="CENTER">
+            <font>
+                <Font name="Britannic Bold" size="35.0" />
+            </font>
+        </Label>
+    </top>
+    <center>
+        <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="40.0" BorderPane.alignment="CENTER">
+
+            <Button fx:id="btnJacobi" mnemonicParsing="false" text="Método de Jacobi">
+                <font>
+                    <Font name="Britannic Bold" size="16.0" />
+                </font>
+            </Button>
+
+            <Button fx:id="btnSeidel" mnemonicParsing="false" text="Método Gauss-Seidel">
+                <font>
+                    <Font name="Britannic Bold" size="16.0" />
+                </font>
+            </Button>
+
+            <Button fx:id="btnNRMulti" mnemonicParsing="false" text="Newron Raphson Multivariable">
+                <font>
+                    <Font name="Britannic Bold" size="16.0" />
+                </font>
+            </Button>
+
+            <Button fx:id="btnAprox" mnemonicParsing="false" text="Aproximación Funcional">
+                <font>
+                    <Font name="Britannic Bold" size="16.0" />
+                </font>
+            </Button>
+
+        </VBox>
+    </center>
+
+    <bottom>
+        <Button fx:id="regresar" text="back" contentDisplay="TOP" prefHeight="70" prefWidth="70" BorderPane.alignment="BOTTOM_RIGHT">
+            <graphic>
+                <MaterialDesignIconView fill="cornflowerblue" glyphName="KEYBOARD_RETURN" glyphSize="40"/>
+            </graphic>
+        </Button>
+    </bottom>
+</BorderPane>
