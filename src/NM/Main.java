@@ -1,9 +1,6 @@
 package NM;
 
-import NM.Metods.Bisection;
-import NM.Metods.Newtton_Raphson;
-import NM.Metods.PuntoFijo;
-import NM.Metods.Secante;
+import NM.Metods.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -37,5 +34,8 @@ public class Main extends Application{
         //Function f = new Function("f(x)=sqrt(10/(x+4))");
         //System.out.println(f.calculate(20));
 
+        double[] xarr = {10, 12.5, 17.5, 20, 50, 30};
+        double[] yarr = {400, 500, 500, 600, 1500, 900};
+        AproxFuncional aproxFuncional = new AproxFuncional(6, xarr, yarr );
     }
 }
