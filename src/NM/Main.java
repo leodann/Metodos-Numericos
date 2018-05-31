@@ -23,8 +23,9 @@ public class Main extends Application{
     }
 
     public static void main(String[] args) {
+        InterpolaciónCuadratica ic = new InterpolaciónCuadratica("f(x) = log10(x)",4.0,3,4.5,5);
         //launch(args);
-        Interpolacion i = new Interpolacion("f(x) = log10(x)",4.0,3,4.5);
+        // Interpolacion i = new Interpolacion("f(x) = log10(x)",4.0,3,4.5);
         //Bisection b1 = new Bisection(-1.5,-0.5,0.001,"f(x)=2*x^2-2*x-3");
         //ReglaFalsa r1 = new ReglaFalsa(2.8,3.3,0.01,"f(x)=x^2-2*x-3");
         //Newtton_Raphson n1 = new Newtton_Raphson(1,"f(x)=x^4-2*x^3-12*x^2+16*x-40",0.01);

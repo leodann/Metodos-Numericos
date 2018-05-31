@@ -7,47 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7be6963d-063a-4e79-a29a-ebada51192db" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NM/Controllers/JacobiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NM/FXML/Jacobi_FXML.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NM/Metods/Jacobi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MetodosNumericos.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MetodosNumericos_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/LeoDan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/LeoDan.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/MathParser_org_mXparser_jdk18_4_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/MathParser_org_mXparser_jdk18_4_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/fontawesomefx_8_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/fontawesomefx_8_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NM/Metods/InterpolaciónCuadratica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MetodosNumericos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MetodosNumericos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Model/Dao/IteracionBisecDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Model/Dao/IteracionBisecDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Model/IteracionBisec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Model/IteracionBisec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Model/IteracionNewton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Model/IteracionNewton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Model/IteracionPuntoF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Model/IteracionPuntoF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/Model/IteracionSecante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/Model/IteracionSecante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/BisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Controllers/BisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Controllers/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/NewtonRaphsonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Controllers/NewtonRaphsonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/Parcial2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Controllers/Parcial2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/PuntoFijoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Controllers/PuntoFijoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Controllers/ReglaFController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/SecanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Controllers/SecanteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Controllers/parcial1cont.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/BisFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/FXML/BisFXML.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/MenuFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/FXML/MenuFXML.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/NewtonRaphson_fxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/FXML/NewtonRaphson_fxml.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/Parcial1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/FXML/Parcial1.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/Parcial2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/FXML/Parcial2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/PuntoFijo_fxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/FXML/PuntoFijo_fxml.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/FXML/ReglaF_FXML.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/FXML/Secante_fxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/FXML/Secante_fxml.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Func/Func.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Func/Func.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NM/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Metods/Bisection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Metods/Bisection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Metods/Newtton_Raphson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Metods/Newtton_Raphson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Metods/PuntoFijo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Metods/PuntoFijo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Metods/ReglaFalsa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NM/Metods/Secante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NM/Metods/Secante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/css/DarkTheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/css/DarkTheme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/css/controlStyle1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/css/controlStyle1.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +30,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="222">
+              <caret line="25" column="96" selection-start-line="25" selection-start-column="96" selection-end-line="25" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -76,53 +39,26 @@
       <file leaf-file-name="Interpolacion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NM/Metods/Interpolacion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="558">
+              <caret line="51" column="5" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Func.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Func.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NM/Func/Func.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="51" lean-forward="true" selection-end-line="51" />
+            <state relative-caret-position="600">
+              <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PuntoFijo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/Metods/PuntoFijo.java">
+      <file leaf-file-name="InterpolaciónCuadratica.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NM/Metods/InterpolaciónCuadratica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bisection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/Metods/Bisection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2256">
-              <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BisController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NM/Controllers/BisController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="157" column="13" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IteracionBisec.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Database/Model/IteracionBisec.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="114" selection-start-line="7" selection-start-column="114" selection-end-line="7" selection-end-column="114" />
+            <state relative-caret-position="210">
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -188,8 +124,9 @@
         <option value="$PROJECT_DIR$/src/NM/Metods/Jacobi.java" />
         <option value="$PROJECT_DIR$/src/NM/FXML/Jacobi_FXML.fxml" />
         <option value="$PROJECT_DIR$/src/NM/Metods/Interopolción.java" />
-        <option value="$PROJECT_DIR$/src/NM/Main.java" />
         <option value="$PROJECT_DIR$/src/NM/Metods/Interpolacion.java" />
+        <option value="$PROJECT_DIR$/src/NM/Main.java" />
+        <option value="$PROJECT_DIR$/src/NM/Metods/InterpolaciónCuadratica.java" />
       </list>
     </option>
   </component>
@@ -204,8 +141,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,11 +181,18 @@
               <item name="NM" type="462c0819:PsiDirectoryNode" />
               <item name="Func" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MetodosNumericos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MetodosNumericos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NM" type="462c0819:PsiDirectoryNode" />
+              <item name="Metods" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,25 +474,34 @@
       <option name="project" value="LOCAL" />
       <updated>1525974102829</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Interpolación">
+      <created>1527768694880</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1527768694880</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32839224" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021482" side_tool="true" weight="0.54846066" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785176" weight="0.35119727" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49785176" weight="0.32839224" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785176" visible="true" weight="0.34045583" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49785176" weight="0.32763532" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32839224" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2261745" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -558,7 +511,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32975295" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32839224" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -580,7 +532,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/leodann/Metodos-Numericos&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Agrege la escena para punto fijo y Regla falsa.&#10;  #Lo unico que no so ve en la tableview son los errores." />
     <MESSAGE value="Agrege la escena para punto fijo , Regla falsa y Newton Raphson.&#10;  #Lo unico que no so ve en la tableview son los errores." />
-    <option name="LAST_COMMIT_MESSAGE" value="Agrege la escena para punto fijo , Regla falsa y Newton Raphson.&#10;  #Lo unico que no so ve en la tableview son los errores." />
+    <MESSAGE value="Interpolación" />
+    <option name="LAST_COMMIT_MESSAGE" value="Interpolación" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -588,7 +541,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial1.fxml" />
     <entry file="file://$PROJECT_DIR$/src/NM/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/NM/FXML/MenuFXML.fxml" />
     <entry file="file://$PROJECT_DIR$/src/NM/FXML/Parcial1.fxml" />
@@ -671,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NM/Metods/PuntoFijo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -706,17 +651,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Interpolacion.java">
+    <entry file="file://$PROJECT_DIR$/src/NM/Func/Func.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="600">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NM/Func/Func.java">
+    <entry file="file://$PROJECT_DIR$/src/NM/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="51" lean-forward="true" selection-end-line="51" />
+        <state relative-caret-position="222">
+          <caret line="25" column="96" selection-start-line="25" selection-start-column="96" selection-end-line="25" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/Interpolacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NM/Metods/InterpolaciónCuadratica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -739,7 +698,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
