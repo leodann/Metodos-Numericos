@@ -1,6 +1,9 @@
 package NM;
 
-import NM.Metods.*;
+import NM.Metods.Bisection;
+import NM.Metods.Newtton_Raphson;
+import NM.Metods.PuntoFijo;
+import NM.Metods.Secante;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -23,7 +26,7 @@ public class Main extends Application{
     }
 
     public static void main(String[] args) {
-        launch(args);
+        //launch(args);
 
         //Bisection b1 = new Bisection(-1.5,-0.5,0.001,"f(x)=2*x^2-2*x-3");
         //ReglaFalsa r1 = new ReglaFalsa(2.8,3.3,0.01,"f(x)=x^2-2*x-3");
@@ -34,8 +37,6 @@ public class Main extends Application{
         //Function f = new Function("f(x)=sqrt(10/(x+4))");
         //System.out.println(f.calculate(20));
 
-        double[] xarr = {10, 12.5, 17.5, 20, 50, 30};
-        double[] yarr = {400, 500, 500, 600, 1500, 900};
-        AproxFuncional aproxFuncional = new AproxFuncional(6, xarr, yarr );
+        Secante s1=new Secante(4.4,4.2,0.01,"f(x)=x^4-2*x^3-12*x^2+16*x-40");
     }
 }
